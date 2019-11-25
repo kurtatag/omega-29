@@ -1,0 +1,6 @@
+# write bytes to a file
+
+
+with open('temp.txt', 'wb') as f:
+    bytes_num = f.write("aaa\nяяя\n".encode(encoding='utf-8'))
+    print(bytes_num)

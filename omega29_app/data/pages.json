@@ -1,0 +1,37 @@
+[
+    {
+        "name": "Home/Python/Python Core/File IO",
+        "data_dir": "data/input_files/python/python_core/file_io",
+        "endpoint": "python.core_file_io"
+    },
+    {
+        "name": "Home/Python/Python Core/Comprehensions",
+        "data_dir": "data/input_files/python/python_core/comprehensions",
+        "endpoint": "python.core_comprehensions"
+    },
+    {
+        "name": "Home/Python/Python Core/Decorators",
+        "data_dir": "data/input_files/python/python_core/decorators",
+        "endpoint": "python.core_decorators"
+    },
+    {
+        "name": "Home/Python/Python Core/Truth Value Testing",
+        "data_dir": "data/input_files/python/python_core/truth_value_testing",
+        "endpoint": "python.core_truth_value_testing"
+    },
+    {
+        "name": "Home/Python/Python Core/Variable Scopes",
+        "data_dir": "data/input_files/python/python_core/variable_scopes",
+        "endpoint": "python.core_variable_scopes"
+    },
+    {
+        "name": "Home/Python/Python Standard Library/CSV Module",
+        "data_dir": "data/input_files/python/python_std_lib/csv_module",
+        "endpoint": "python.std_lib_csv"
+    },
+    {
+        "name": "Home/Git/Git Essentials",
+        "data_dir": "data/input_files/git/git_essentials",
+        "endpoint": "git.essentials"
+    }
+]

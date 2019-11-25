@@ -1,0 +1,30 @@
+# Bob
+git checkout master
+git fetch
+git merge origin/master
+git checkout -b cool_feature_branch
+git add .
+git commit -m "Add cool feature"
+git fetch
+git push -u origin cool_feature_branch
+
+# Alice
+git checkout master
+git fetch
+git merge origin/master
+git checkout -b cool_feature_branch origin/cool_feature_branch
+git log
+git show 84b6adf0
+git commit -am "Make cool feature nicer"
+git fetch
+git push
+
+# Bob
+git fetch
+git log -p cool_feature_branch..origin/cool_feature_branch
+git merge origin/cool_feature_branch
+git checkout master
+git fetch
+git merge origin/master
+git merge cool_feature_branch
+git push

@@ -1,0 +1,8 @@
+git init
+
+git add .
+git commit -m "Initial commit"
+
+git commit -a -m "Initial commit"
+# adding and commiting at the same time
+# (doesn't work well for new and deleted files)

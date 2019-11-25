@@ -1,0 +1,5 @@
+# read all contents of a file
+
+
+with open('temp.txt', 'rt', encoding='utf-8') as f:
+    print(f.read())

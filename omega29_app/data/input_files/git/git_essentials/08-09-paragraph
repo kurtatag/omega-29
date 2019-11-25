@@ -1,0 +1,4 @@
+There are three choices to resolve merge conflict:
+  1. abort merge
+  2. resolve the conflict manually
+  3. use a merge tool

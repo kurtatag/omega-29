@@ -1,0 +1,9 @@
+git push -u origin master
+# 1. Send commits from a local branch 'master' to the branch
+#    called the same on a remote repository 'origin'.
+#    If master does not exist remotely, it will be created.
+# 2. The option -u (or --set-upstream) means the following:
+#    if the current push succeeds, make the local branch 'master'
+#    track its remote counterpart.
+#    (learn about tracking in 'tracking remote branches' on the
+#     current page)

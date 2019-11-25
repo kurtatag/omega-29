@@ -1,0 +1,5 @@
+sudo apt-get install git
+
+which git
+git --version
+# check that Git is installed

@@ -1,0 +1,22 @@
+data = [
+    {
+        'first_name': 'Bob',
+        'last_name': 'Black',
+        'email': 'bob@email.com'
+    },
+    {
+        'first_name': 'Alice',
+        'last_name': 'White',
+        'email': 'alice@email.com'
+    }
+]
+
+with open('students.csv', 'w', newline='') as csv_file:
+    fieldnames = ['first_name', 'last_name', 'email']
+
+    csv_writer = csv.DictWriter(csv_file, fieldnames=fieldnames, delimiter=',')
+
+    csv_writer.writeheader()
+
+    for student in data:
+        csv_writer.writerow(student)

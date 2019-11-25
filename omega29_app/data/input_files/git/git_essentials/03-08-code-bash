@@ -1,0 +1,3 @@
+git diff <SHA>
+# shows the differences between the current Working Directory and the
+# Working Directory at that point

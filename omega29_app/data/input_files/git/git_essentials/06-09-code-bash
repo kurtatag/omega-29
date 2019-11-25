@@ -1,0 +1,4 @@
+git log --since="2017-08-15"
+git log --until="2017-08-15"
+git log --since="2 weeks ago" --until="3 days ago"
+git log --since=2.weeks --until=3.days

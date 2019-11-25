@@ -1,0 +1,2 @@
+git merge --ff-only other_branch
+# try to do a fast-forward merge and if you can't then just abort

@@ -1,0 +1,5 @@
+git config user.name
+# to view this particular parameter
+
+git config --list
+# to view all parameters

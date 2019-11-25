@@ -1,0 +1,3 @@
+git diff master origin/master
+# find out the difference between our local master and its remote counterpart
+# (after git fetch, for example)

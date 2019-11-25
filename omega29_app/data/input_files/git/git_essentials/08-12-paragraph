@@ -1,0 +1,5 @@
+- keep lines short
+- keep commits small and focused
+- beware stray edits to whitespaces
+- merge often (it's ok to merge the same branch more than once)
+- track changes in master

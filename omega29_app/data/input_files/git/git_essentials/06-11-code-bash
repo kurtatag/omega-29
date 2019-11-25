@@ -1,0 +1,2 @@
+git log --grep="bug"
+# will return the commits which message contains "bug"

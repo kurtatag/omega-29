@@ -1,0 +1,8 @@
+# seek() will change the stream position to the given byte offset
+# (here the contents of a file will be read 3 times)
+
+
+with open('temp.txt', 'rt', encoding='utf-8') as f:
+    for _ in range(3):
+        print(f.read())
+        f.seek(0)

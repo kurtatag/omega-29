@@ -1,0 +1,17 @@
+<div class="d-none d-lg-block sticky-top mt-3" id="toc">
+  <div class="card border-0">
+    <div class="card-body">
+      <div class="h5 card-title">Contents</div>
+      <div id="toc-fade">
+        <div id="toc-fade-top"></div>
+        <div id="toc-scroll">
+          {{ macros.render_toc_items(toc_items) }}
+          <!-- {% for i in range(40) %}
+            <a class="nav-link text-truncate ml-3 my-1" href="">place holder</a>
+          {% endfor %} -->
+        </div>
+        <div id="toc-fade-bottom"></div>
+      </div>
+    </div>
+  </div>
+</div>

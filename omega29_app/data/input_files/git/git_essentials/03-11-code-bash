@@ -1,0 +1,7 @@
+git diff -b
+git diff --ignore-space-change
+# these two lines are the same
+
+git diff -w
+git diff --ignore-all-space
+# these two are also the same

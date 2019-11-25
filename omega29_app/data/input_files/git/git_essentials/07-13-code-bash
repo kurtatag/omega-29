@@ -1,0 +1,2 @@
+git branch --merged
+# show branches that are completely included in our current branch

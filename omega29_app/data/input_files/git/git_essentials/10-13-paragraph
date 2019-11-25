@@ -1,0 +1,3 @@
+If local_branch is tracking its remote counterpart than you can use
+'git push' and 'git fetch' without any arguments and local_branch will
+know where to push and from where to fetch.

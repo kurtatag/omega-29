@@ -1,0 +1,2 @@
+git log <remote_repo_alias>/<remote_branch>
+# to see a commit log on a remote

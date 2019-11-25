@@ -1,0 +1,4 @@
+Git does not track empty folders.
+
+To start tracking an empty folder people usually put an empty file .gitkeep
+inside that folder.

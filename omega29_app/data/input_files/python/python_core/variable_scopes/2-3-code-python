@@ -1,0 +1,12 @@
+count = 0
+
+
+def set_count(value):
+    global count
+    count = value
+    print('local count = {}'.format(count))
+
+
+print('global count = {}'.format(count))
+set_count(5)
+print('global count = {}'.format(count))

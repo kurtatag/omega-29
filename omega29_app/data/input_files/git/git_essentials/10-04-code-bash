@@ -1,0 +1,3 @@
+git remote add <alias> <url>
+# add a new remote
+# you can call <alias> whatever you want, but usually it's origin

@@ -1,0 +1,8 @@
+Stash   - a place where we can store changes temporarily without having
+          to commit them to Repository
+
+Stash is not part of Repository, Staging Index or Working Directory,
+it's a special fourth area in Git, separate from the others.
+
+The things that we put into Stash aren't commits. They are snapshots of
+the changes that we were in the process of making (they don't have a SHA).

@@ -1,0 +1,9 @@
+git config --global user.name "Khetag Tebiev"
+git config --global user.email "kurtatag@gmail.com"
+
+git config --global core.editor "code -w"
+# the '-w' tells unix to wait until you close the editor and only after
+# that unix will be able to continue
+
+git config --global color.ui true
+# this will make the ui colorful

@@ -1,0 +1,3 @@
+git diff --color-words master..other_branch^
+# Of course, what we are passing in here is not just a branch, we are
+# passing in a tree-ish, which can be a lot of things, even the ancestors.

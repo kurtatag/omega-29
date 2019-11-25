@@ -1,0 +1,9 @@
+git fetch origin
+# 1. Fetch (or download) all branches and tags from the specified remote.
+# 2. Update all remote-tracking branches for the specified remote
+#    (in our case for 'origin' those would be branches like origin/master,
+#     origin/develop, origin/feature/my_feature...)
+# 3. Our local branches will not be updated.
+
+git fetch
+# if we have only one remote repository

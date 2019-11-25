@@ -1,0 +1,2 @@
+git stash pop stash@{1}
+# retreive Stash item to current Working Directory and remove it from Stash

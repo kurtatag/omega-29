@@ -1,0 +1,7 @@
+# open a file for writing (appending to the end)
+# in a text or binary mode
+
+
+open('temp.txt', 'a', encoding='utf-8')
+open('temp.txt', 'at', encoding='utf-8')
+open('temp.txt', 'ab')

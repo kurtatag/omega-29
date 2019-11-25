@@ -1,0 +1,2 @@
+git branch -m old_branch_name new_branch_name          # rename a branch
+git branch --move old_branch_name new_branch_name      # rename a branch

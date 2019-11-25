@@ -1,0 +1,7 @@
+git clean -f
+# remove untracked files from Working Directory
+# -f  = force (git clean will not do anything without this option)
+
+git clean -df
+# remove untracked directories and files from Working Directory
+# -d  = remove untracked directories in addition to untracked files

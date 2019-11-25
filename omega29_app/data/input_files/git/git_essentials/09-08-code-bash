@@ -1,0 +1,3 @@
+git stash show stash@{0}
+# show the changes recorded in Stash first entry as a diff between the stashed
+# contents and the commit back when the stash entry was first created

@@ -1,0 +1,3 @@
+git merge other_branch
+# merge commits from other_branch into the current branch
+# (when merging, you should always be on the receiver branch)

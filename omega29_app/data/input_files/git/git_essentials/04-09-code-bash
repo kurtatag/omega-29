@@ -1,0 +1,2 @@
+git checkout <SHA> -- file.txt
+# checkout a specified filed from this old commit and put it in Staging Index

@@ -1,0 +1,5 @@
+The 'nonlocal' keyword is useful in nested functions.
+It causes the variable to refer to the previously bound variable
+in the closest enclosing scope. In other words, it will prevent
+the variable from trying to bind locally first, and force it to go
+a level 'higher up'.

@@ -1,0 +1,6 @@
+git reset --mixed <SHA>
+# resets the HEAD pointer to the specified commit
+# --mixed (default)
+#   - changes Repository
+#   - changes Staging Index to match Repository
+#   - does not change Working Directory

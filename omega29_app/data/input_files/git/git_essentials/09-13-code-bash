@@ -1,0 +1,2 @@
+git stash drop stash@{3}
+# delete entry from Stash

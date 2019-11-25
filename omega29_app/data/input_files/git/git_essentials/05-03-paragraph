@@ -1,0 +1,12 @@
+project/.git
+project/.gitignore
+
+  * ? [aeiou] [0-9] !    - you can use all of these
+
+  *.php                  - ignore everything that ends with .php
+  !index.php             - don't ignore index.php
+
+  assets/videos/         - everything in this folder will be ignored
+                           (because of the trailing slash)
+
+  #                      - comments

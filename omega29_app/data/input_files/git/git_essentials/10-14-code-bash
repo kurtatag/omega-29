@@ -1,0 +1,5 @@
+git checkout my_branch
+git branch --set-upstream-to=origin/my_branch
+# make the current branch track its remote counterpart
+# this command will not create origin/my_branch
+# so origin/my_branch should already exist otherwise an error

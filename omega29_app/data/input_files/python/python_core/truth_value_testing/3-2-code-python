@@ -1,0 +1,16 @@
+# zero of any numeric type is false
+
+
+from decimal import Decimal
+from fractions import Fraction
+
+zeros = [
+    0,
+    0.0,
+    0j,
+    Decimal(0),
+    Fraction(0, 1)
+]
+
+for zero in zeros:
+    print(bool(zero))

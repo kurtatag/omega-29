@@ -1,0 +1,2 @@
+With the 'global' keyword, you're telling Python to use the globally
+defined variable instead of locally defining a new one.

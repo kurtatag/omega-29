@@ -1,0 +1,5 @@
+git branch -r
+# show the remote branches
+
+git branch -a
+# show all branches

@@ -1,0 +1,6 @@
+git reset --hard <SHA>
+# resets the HEAD pointer to the specified commit
+# --hard
+#   - changes Repository
+#   - changes Staging Index to match Repository
+#   - changes Working Directory to match Repository

@@ -1,0 +1,46 @@
+[
+    {
+        "name": "Home",
+        "endpoint": "index"
+    },
+    {
+        "name": "Home/Python",
+        "endpoint": "python.home"
+    },
+    {
+        "name": "Home/Python/Python Core",
+        "endpoint": "python.core"
+    },
+    {
+        "name": "Home/Python/Python Standard Library",
+        "endpoint": "python.std_lib"
+    },
+    {
+        "name": "Home/Python/Data Structures & Algorithms",
+        "endpoint": "python.algorithms"
+    },
+    {
+        "name": "Home/Python/Design Patterns",
+        "endpoint": "python.patterns"
+    },
+    {
+        "name": "Home/Python/Python Tricks",
+        "endpoint": "python.tricks"
+    },
+    {
+        "name": "Home/Linux",
+        "endpoint": "linux.home"
+    },
+    {
+        "name": "Home/Git",
+        "endpoint": "git.home"
+    },
+    {
+        "name": "Home/Docker",
+        "endpoint": "docker.home"
+    },
+    {
+        "name": "Home/Ansible",
+        "endpoint": "ansible.home"
+    }
+]

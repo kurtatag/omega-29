@@ -1,0 +1,5 @@
+git reset --soft <SHA>
+# resets the HEAD pointer to the specified commit
+# --soft
+#   - changes only Repository
+#   - does not change Staging Index or Working Directory

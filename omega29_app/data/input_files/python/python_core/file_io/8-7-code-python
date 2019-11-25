@@ -1,0 +1,6 @@
+# write a sequence of lines to a file
+
+
+with open('temp.txt', 'wt', encoding='utf-8') as f:
+    lines = ['aaa\n', 'bbb\n']
+    f.writelines(lines)

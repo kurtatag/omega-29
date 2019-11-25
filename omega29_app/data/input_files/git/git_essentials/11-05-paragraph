@@ -1,0 +1,3 @@
+Now there are two ways to add aliases to that file:
+  1. edit the file directly
+  2. use git config with the global option

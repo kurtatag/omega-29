@@ -1,0 +1,2 @@
+git merge --no-ff other_branch
+# don't do a fast-forward merge, do a merge with a new commit

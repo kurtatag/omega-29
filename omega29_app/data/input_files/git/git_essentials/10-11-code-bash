@@ -1,0 +1,6 @@
+git clone <url>
+# 1. Create a folder named as the repository itself
+# 2. Clone the repository to that folder
+
+git clone <url> <local_repo_folder_name>
+# you can specify the name of the folder the repository will be cloned into

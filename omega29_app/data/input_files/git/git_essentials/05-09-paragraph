@@ -1,0 +1,3 @@
+Previously tracked files are not ignored. To start ignoring them we
+need first to untrack them. To unctrack previously tracked files we
+just need to remove them from Staging Index.

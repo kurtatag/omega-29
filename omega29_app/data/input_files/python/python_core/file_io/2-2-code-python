@@ -1,0 +1,7 @@
+# open a file for reading in a text mode
+
+
+open('temp.txt')
+open('temp.txt', 'r')
+open('temp.txt', 'rt')
+open('temp.txt', 'rt', encoding='utf-8')

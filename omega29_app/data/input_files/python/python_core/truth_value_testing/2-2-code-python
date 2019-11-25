@@ -1,0 +1,10 @@
+# constants defined to be false: None and False
+
+
+falsy_constants = [
+    None,
+    False
+]
+
+for const in falsy_constants:
+    print(bool(const))

@@ -1,0 +1,13 @@
+import csv
+
+data = [
+    ['first_name', 'last_name', 'email'],
+    ['Bob', 'Black', 'bob@email.com'],
+    ['Alice', 'White', 'alice@email.com']
+]
+
+with open('students.csv', 'w', newline='') as csv_file:
+    csv_writer = csv.writer(csv_file, delimiter=';')
+
+    for line in data:
+        csv_writer.writerow(line)

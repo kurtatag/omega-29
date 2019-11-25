@@ -1,0 +1,9 @@
+# write bytes to a file
+
+
+with open('temp.txt', 'wb') as f:
+    lines = [
+        'aaa\n'.encode(encoding='utf-8'),
+        'яяя\n'.encode(encoding='utf-8')
+    ]
+    f.writelines(lines)

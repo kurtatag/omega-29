@@ -1,0 +1,15 @@
+A reference to a commit (a tree-ish) can be one of the following:
+   - full SHA-1 hash
+   - short SHA-1 hash
+      - at least 4 characters
+      - unambiguous (8-10 characters)
+   - HEAD pointer
+      - always points to the commit that's at the tip of the currently checked
+        out branch
+   - branch reference
+      - refers to the tip of the branch
+   - tag reference
+   - ancestry
+      - HEAD^, acf87504^, master^ (parent of the specified tree-ish)
+      - HEAD~1, HEAD~ (number of generations we want to go up, default=1)
+      - HEAD^^, HEAD~2 (parent of the parent)

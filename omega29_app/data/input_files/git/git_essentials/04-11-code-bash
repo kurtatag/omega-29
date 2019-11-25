@@ -1,0 +1,4 @@
+git revert <SHA>
+# this will make a new commit that reverts all changes in the old specified
+# commit
+# (works for simple cases, for reverting more complex changes people use merge)

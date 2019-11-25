@@ -1,0 +1,3 @@
+git stash save --include-untracked "my changes"
+# all untracked files are also stashed and then cleaned up with git clean,
+# leaving Working Directory in a very clean state

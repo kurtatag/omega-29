@@ -1,0 +1,2 @@
+git merge --abort
+# to abort the merge (when there are merge conflicts)

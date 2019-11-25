@@ -1,0 +1,39 @@
+{% extends 'base.html' %}
+{% import '_macros/macros.html' as macros %}
+
+{% block main %}
+<div class="col col-sm-12 col-lg-4">
+
+  <!-- TABLE OF CONTENTS -->
+  {% include '_includes/toc.html' %}
+
+  <!-- TABLE OF CONTENTS MOBILE -->
+  {% include '_includes/toc_mobile.html' %}
+
+</div> <!-- /col-lg-4 -->
+
+<div class="col col-sm-12 col-lg-8">
+
+  <!-- CONTENTS -->
+  <div class="page-contents">
+
+    {% for i in range(1, data|length + 1) %}  <!-- i = section number -->
+      <section class="">
+        {% for j in range(1, data[i]|length + 1) %}  <!-- j = component number within a section -->
+          {% if data[i][j].type == 'h3' or data[i][j].type == 'h5' %}
+            {{ macros.render_component(type=data[i][j].type, content=data[i][j].content, id=data[i][j].id) }}
+          {% elif data[i][j].type == 'code' %}
+            {{ macros.render_component(type=data[i][j].type, content=data[i][j].content, lang=data[i][j].lang) }}
+          {% else  %}
+            {{ macros.render_component(type=data[i][j].type, content=data[i][j].content) }}
+          {% endif %}
+        {% endfor %}
+      </section>
+    {% endfor %}
+
+    <div style="height: 800px;"></div>
+
+  </div> <!-- /contents -->
+
+</div> <!-- /col-lg-8 -->
+{% endblock main %}

@@ -1,0 +1,6 @@
+# write a string to a file
+
+
+with open('temp.txt', 'wt', encoding='utf-8') as f:
+    chars_num = f.write("aaa\nbbb\n")
+    print(chars_num)

@@ -1,0 +1,5 @@
+f = open('temp.txt', 'rt', encoding='utf-8')
+try:
+    print(f.read())
+finally:
+    f.close()

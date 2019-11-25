@@ -1,0 +1,7 @@
+git log --format=oneline  # this will return full SHAs
+git log --format=short
+git log --format=medium  # the default one
+git log --format=full
+git log --format=fuller  # even more information than full
+git log --format=email  # useful for mailing an email
+git log --format=raw  # shows the raw information that's stored in Git

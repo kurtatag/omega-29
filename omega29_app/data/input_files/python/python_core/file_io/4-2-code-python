@@ -1,0 +1,5 @@
+# open and close a file with a context manager
+
+
+with open('temp.txt', 'rt', encoding='utf-8') as f:
+    print(f.read())

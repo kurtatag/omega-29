@@ -1,0 +1,8 @@
+tree         - the structure of files in Git repository (it's similar to
+               a directory in your file system)
+
+tree-ish     - something that references part of the tree
+             - it's "ish" because what that something is can vary widely
+             - in its simplest terms, a tree-ish is a reference to a commit
+               (because that commit then in turn references the tree, the Git
+               repository and all the files that are in there at that point)

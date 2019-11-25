@@ -1,0 +1,6 @@
+git branch cool_feature_branch origin/cool_feature_branch
+# We can think of this command like this:
+#   1. Create a new local branch 'cool_feature_branch'
+#   2. Start it from the tip of 'origin/cool_feature_branch'
+#   3. Set up the local 'cool_feature_branch' to track the remote
+#     'origin/cool_feature_branch'

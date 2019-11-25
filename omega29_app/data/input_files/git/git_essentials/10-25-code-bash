@@ -1,0 +1,3 @@
+git merge origin/master
+# we merge origin/master into our local master just like we would merge any
+# other 'normal' branch

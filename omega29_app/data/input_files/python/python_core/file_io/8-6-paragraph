@@ -1,0 +1,3 @@
+The writelines() method writes the sequence of lines to a file.
+No line endings are appended to each sequence item.
+It’s up to you to add the appropriate line ending(s).

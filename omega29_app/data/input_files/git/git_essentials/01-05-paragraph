@@ -1,0 +1,10 @@
+Git configuration happens at 3 levels:
+
+System:
+git config --system
+
+User:
+git config --global
+
+Project:
+git config

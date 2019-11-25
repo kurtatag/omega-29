@@ -1,0 +1,4 @@
+git rm --cached file.txt
+# This will remove the file only from Staging index (not from Repository
+# and not from Working Directory). After that the changes in the file
+# can be ignored (if we put it in .gitignore)

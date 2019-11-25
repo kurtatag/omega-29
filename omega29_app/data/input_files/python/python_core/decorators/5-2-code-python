@@ -1,0 +1,24 @@
+def decor_func_builder(top, bottom):
+
+    # The function 'decor_func_builder' is NOT a decorator, it is just a
+    # regular function that returns a decorator. The function 'decor_func'
+    # is a decorator.
+
+    def decor_func(original_func):
+
+        def wrapper_func(*args, **kwargs):
+            print(top)
+            original_func(*args, **kwargs)
+            print(bottom)
+
+        return wrapper_func
+
+    return decor_func
+
+
+@decor_func_builder('Top', 'Bottom')
+def my_func():
+    print('Hi')
+
+
+my_func()

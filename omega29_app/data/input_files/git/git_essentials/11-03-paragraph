@@ -1,0 +1,2 @@
+When we set up aliases, we are going to set them up in any git config file,
+most often in our user global config file.

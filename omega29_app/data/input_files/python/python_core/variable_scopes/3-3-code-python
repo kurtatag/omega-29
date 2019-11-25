@@ -1,0 +1,19 @@
+count = 0
+
+
+def outer():
+    count = 100
+    print('outer count = {}'.format(count))
+
+    def inner():
+        nonlocal count
+        count = 200
+        print('inner count = {}'.format(count))
+
+    inner()
+    print('outer count = {}'.format(count))
+
+
+print('global count = {}'.format(count))
+outer()
+print('global count = {}'.format(count))

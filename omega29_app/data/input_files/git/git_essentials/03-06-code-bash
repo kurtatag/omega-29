@@ -1,0 +1,4 @@
+git diff --staged
+git diff --cached
+# to compare Staging Index with Repository
+# ('--cached' does the same as --cached)

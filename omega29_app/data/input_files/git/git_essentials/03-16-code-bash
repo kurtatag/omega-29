@@ -1,0 +1,5 @@
+# method 1
+mv file-old file-new
+git rm file-old
+git add file-new
+git commit -m "rename file"

@@ -1,0 +1,15 @@
+# open a file for updating (reading and writing)
+# in a text or binary mode
+
+
+open('temp.txt', 'r+', encoding='utf-8')
+open('temp.txt', 'w+', encoding='utf-8')  # will first truncate the file
+open('temp.txt', 'a+', encoding='utf-8')
+
+open('temp.txt', 'r+t', encoding='utf-8')
+open('temp.txt', 'w+t', encoding='utf-8')  # will first truncate the file
+open('temp.txt', 'a+t', encoding='utf-8')
+
+open('temp.txt', 'r+b')
+open('temp.txt', 'w+b')  # will first truncate the file
+open('temp.txt', 'a+b')

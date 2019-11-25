@@ -1,0 +1,5 @@
+git remote
+# list of remotes Git knows about
+
+git remote -v
+# be a little more verbose and show remote url after name

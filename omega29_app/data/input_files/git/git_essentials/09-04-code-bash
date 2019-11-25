@@ -1,0 +1,5 @@
+git stash save "my changes"
+# put changes into Stash
+# What the command actually does it two things:
+#   1. puts changes into Stash
+#   2. runs git reset --hard HEAD (so that Working Directory is clean again)

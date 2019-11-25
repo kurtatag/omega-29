@@ -1,0 +1,10 @@
+git log
+
+git log -n 5
+# will return only the most recent 5 commits
+
+git log --oneline
+# each commit on a separate one line
+
+git log --oneline -5
+# shows just the most recent 5 commits

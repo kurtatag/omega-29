@@ -1,0 +1,10 @@
+# tell() will return the current stream position
+# (here the second line of a file will be read 3 times)
+
+
+with open('temp.txt', 'rt', encoding='utf-8') as f:
+    f.readline()
+    line_2 = f.tell()
+    for _ in range(3):
+        f.seek(line_2)
+        print(f.readline())

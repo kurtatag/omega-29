@@ -1,0 +1,5 @@
+git log <SHA>..<SHA>
+# shows only this range of commits
+
+git log <SHA>..<SHA> file.txt
+# shows only the commits that affected this file (from this range)

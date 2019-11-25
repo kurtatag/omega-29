@@ -1,0 +1,14 @@
+Character   Meaning
+---------   ------------
+  'r'       open for reading (DEFAULT)
+  'w'       open for writing, truncating the file first
+  'x'       open for exclusive creation, failing if the file already exists
+  'a'       open for writing, appending to the end of the file if it exists
+  'b'       binary mode
+  't'       text mode (DEFAULT)
+  '+'       open a disk file for updating (reading and writing)
+
+We must have exactly one of create/read/write/append mode and at most one plus.
+
+The mode 'w+' opens and trancates the file to 0 bytes.
+The modes 'r+' and 'a+' open the file without trancation.

@@ -1,0 +1,5 @@
+# read the contents of a file as a list of lines
+
+
+with open('temp.txt', 'rt', encoding='utf-8') as f:
+    print(f.readlines())

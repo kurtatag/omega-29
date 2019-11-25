@@ -1,0 +1,5 @@
+git log -p
+# the 'patch' option shows the changes (like diff)
+
+git log -p <SHA>..<SHA> file.txt
+# will show the commits relevant to the file as well as changes in the file

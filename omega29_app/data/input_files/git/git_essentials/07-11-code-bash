@@ -1,0 +1,2 @@
+git diff --color-words master..other_branch
+# shows changes on one line instead of using two lines

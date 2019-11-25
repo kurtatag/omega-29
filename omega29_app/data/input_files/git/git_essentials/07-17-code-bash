@@ -1,0 +1,4 @@
+# to delete a local branch
+# you must be on a different branch
+git branch -d branch_to_delete
+git branch --delete branch_to_delete

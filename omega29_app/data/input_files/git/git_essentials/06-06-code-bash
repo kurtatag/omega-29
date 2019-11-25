@@ -1,0 +1,17 @@
+git ls-tree <tree-ish>
+# show the file structure of Repository at that point (similar to /bin/ls)
+
+# examples:
+git ls-tree HEAD
+git ls-tree master
+git ls-tree master my-folder/ # we can specify a directory to look inside it
+git ls-tree HEAD^ # one commit back
+git ls-tree master^
+
+# Everything in that structure is a tree or a blob:
+# blob   = file
+# tree   = directory
+
+# A tree-object is a tree-ish itself, we can use its SHA (or part of it) to
+# look inside it:
+git ls-tree 6fa98b8493af8

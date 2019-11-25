@@ -1,0 +1,2 @@
+git diff <SHA>..<SHA>
+# shows the differences between the two commits

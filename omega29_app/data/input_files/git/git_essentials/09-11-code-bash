@@ -1,0 +1,2 @@
+git stash apply stash@{2}
+# retreive Stash third item to current Working Directory and keep it in Stash

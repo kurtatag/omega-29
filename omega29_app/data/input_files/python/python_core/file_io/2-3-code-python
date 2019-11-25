@@ -1,0 +1,6 @@
+# open a file for writing in a text or binary mode
+
+
+open('temp.txt', 'w', encoding='utf-8')
+open('temp.txt', 'wt', encoding='utf-8')
+open('temp.txt', 'wb')

@@ -1,0 +1,4 @@
+# method 1
+rm file.txt
+git rm file.txt
+git commit -m "delete file.txt"

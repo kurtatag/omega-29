@@ -1,0 +1,2 @@
+git diff <SHA> file.txt
+# shows the differences in the file between now and at that point

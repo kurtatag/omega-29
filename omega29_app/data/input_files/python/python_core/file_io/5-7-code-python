@@ -1,0 +1,6 @@
+# at most read the specified number of characters or bytes
+# (depending on the mode) from a line of a file
+
+
+with open('temp.txt', 'rt', encoding='utf-8') as f:
+    print(f.readline(5))

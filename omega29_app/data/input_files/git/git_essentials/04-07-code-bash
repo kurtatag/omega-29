@@ -1,0 +1,9 @@
+git commit --amend -m "new comment"
+# change the last commit
+#   1. to change the last commit message just type the command
+#   2. to also change the files of the last commit do the following:
+#      - edit the files(s)
+#      - save the files(s)
+#      - stage the files(s)
+#      - and run git commit --amend
+# you are allowed to change only the last commit

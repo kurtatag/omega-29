@@ -1,0 +1,13 @@
+# open a file and return a corresponding file object
+
+
+f = open(
+    "filename",
+    mode='r',   # we specify file open mode here
+    buffering=-1,
+    encoding=None,
+    errors=None,
+    newline=None,
+    closefd=True,
+    opener=None
+)

@@ -1,0 +1,14 @@
+# empty sequences and collections are false
+
+
+empty_sequences = [
+    '',
+    (),
+    [],
+    {},
+    set(),
+    range(0)
+]
+
+for sequence in empty_sequences:
+    print(bool(sequence))

@@ -1,0 +1,6 @@
+# the boolean operations 'or' and 'and'
+# always return one of their operands
+
+
+print('black' or 'white')
+print('black' and 'white')

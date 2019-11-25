@@ -1,0 +1,22 @@
+import time
+
+
+def my_timer(orig_func):
+    import time
+
+    def wrapper(*args, **kwargs):
+        t1 = time.time()
+        result = orig_func(*args, **kwargs)
+        t2 = time.time()
+        print('{} ran in: {} sec'.format(orig_func.__name__, t2-t1))
+        return result
+
+    return wrapper
+
+
+@my_timer
+def my_func(n):
+    time.sleep(n)
+
+
+my_func(3)

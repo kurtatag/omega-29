@@ -1,0 +1,22 @@
+# the simplest possible decorator function (does nothing at all)
+
+
+def decorator_func(original_func):
+    def wrapper_func(*args, **kwargs):
+        return original_func(*args, **kwargs)
+    return wrapper_func
+
+
+def my_func():
+    return 'Hi'
+
+
+my_func = decorator_func(my_func)   # we decorated the function 'manually'
+print(my_func())
+
+
+@decorator_func   # another way to decorate a function with our decorator
+def my_func_2():
+    return 'Hello'
+
+print(my_func_2())

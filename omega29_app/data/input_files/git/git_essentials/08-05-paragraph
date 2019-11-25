@@ -1,0 +1,4 @@
+real merge           - we create a new "merge" commit (in addition to
+                       commits in other_branch)
+fast-forward merge   - we do not create a new "merge" commit (we just take
+                       commits from other_branch and move our HEAD forward)

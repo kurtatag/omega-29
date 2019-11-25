@@ -1,0 +1,15 @@
+# In the situation mentioned above we have to:
+
+# step 1
+git fetch
+# to get origin/master in sync with the remote server
+
+# step 2
+git merge origin/master
+# If any merge conflicts, we would need to fix those just like we do with the
+# normal merge conflicts. But in most cases we don't even get conflicts, we
+# just simply have to do the merge in order to send it to the remote server.
+
+# step 3
+git push
+# now the remote server will accept our push

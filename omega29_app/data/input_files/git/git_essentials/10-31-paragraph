@@ -1,0 +1,4 @@
+If origin/master is out of sync with the remote server, Git won't let us
+push our local master to the remote server.
+
+Git never tries to do a merge during a push.

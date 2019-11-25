@@ -1,0 +1,2 @@
+# to force delete not yet merged branch
+git branch -D branch_to_delete

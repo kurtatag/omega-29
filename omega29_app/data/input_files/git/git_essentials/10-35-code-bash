@@ -1,0 +1,3 @@
+git push --delete origin remote_branch
+git push -d origin remote_branch
+# delete remote branch (new style)

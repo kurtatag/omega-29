@@ -1,0 +1,4 @@
+git config --global core.excludesfile ~/.gitignore_global
+# you can name the file what you want
+# you can locate the file wherever you want
+# everything you specify in this file will be ignored in all your projects

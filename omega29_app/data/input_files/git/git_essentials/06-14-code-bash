@@ -1,0 +1,3 @@
+git log --stat --summary
+# if you're not concerned with the actual details of what happened but you are
+# just wanting to get an idea of the quantity of things that changed and where

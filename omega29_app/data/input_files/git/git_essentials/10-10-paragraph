@@ -1,0 +1,2 @@
+When we clone a repository from GitHub, only the master branch will be
+brought down by default (or whatever branch GitHub has as its default branch).

@@ -1,0 +1,11 @@
+Scopes are contexts in which named references can be looked up.
+
+There are four scopes in Python:
+    Local      - Inside the current function
+    Enclosing  - Any and all enclosing functions
+    Global     - Top-level of a module
+    Built-in   - Provided by the builtins module
+
+Important:
+Blocks of code demarkated by indentation do not create their own
+scopes (for loops, while loops etc)

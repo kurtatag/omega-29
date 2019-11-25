@@ -1,0 +1,7 @@
+git checkout -- file.txt
+# discard changes in the specified file in Working Directory
+# the command will restore the file from Repository
+# '--' means 'stay on the current branch'
+
+git checkout -- .
+# discard changes in all files in Working Directory

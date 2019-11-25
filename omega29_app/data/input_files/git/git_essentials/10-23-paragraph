@@ -1,0 +1,4 @@
+The branch origin/master is just a branch like any other branch. The only
+thing that really differentiates it from the branches that we normally work
+with is the fact that we can't check it out, other than that it's really
+the same.
