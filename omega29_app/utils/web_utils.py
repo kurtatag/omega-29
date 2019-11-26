@@ -77,7 +77,10 @@ def get_page(node_name):
     get_breadcrumb_items(node_name, breadcrumb_items)
 
     page = TreeNode.query.filter_by(name=node_name).first()
-    components = PageComponent.query.filter_by(page_id=page.id).all()
+    q = PageComponent.query
+    f1 = PageComponent.page_section_number.asc()
+    f2 = PageComponent.order_number.asc()
+    components = q.filter_by(page_id=page.id).order_by(f1, f2).all()
 
     for c in components:
         section = c.page_section_number
