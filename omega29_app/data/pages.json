@@ -33,5 +33,10 @@
         "name": "Home/Git/Git Essentials",
         "data_dir": "data/input_files/git/git_essentials",
         "endpoint": "git.essentials"
+    },
+    {
+        "name": "Home/Linux/LFCS/01 Essential Commands",
+        "data_dir": "data/input_files/linux/01_essential_commands",
+        "endpoint": "linux.lfcs_01_essential_commands"
     }
 ]
