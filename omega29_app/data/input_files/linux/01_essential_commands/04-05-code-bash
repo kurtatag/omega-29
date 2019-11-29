@@ -1,0 +1,5 @@
+sort test.txt
+# sort file content
+
+sort -r test.txt
+# sort file content in reverse order

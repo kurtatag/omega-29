@@ -1,0 +1,5 @@
+console    - directly attached to a machine
+terminal   - can come in from a remote connection or can be started up
+             inside a console
+
+Ctrl + Alt + F1...F7    - to switch between consoles (tty7 is gui)

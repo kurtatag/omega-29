@@ -1,0 +1,9 @@
+sftp bob@ubuntu-vm
+# to connect ot a remote host via sftp
+
+# sftp> help                          - to list all available commands
+# sftp> ls                            - to list the contents of the current
+#                                       working directory
+# sftp> get file_to_download.txt      - to download a file from a remote host
+# sftp> put file_to_upload.txt        - to upload a file to a remote host
+# sftp> bye                           - to end sftp session

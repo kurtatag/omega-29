@@ -1,0 +1,5 @@
+cat myfile.txt | awk '{print $2}'
+# print the second element on each line
+
+cat myfile.txt | awk '{print $2 ", " $4}'
+# print the second, the literal and the fourth element on each line

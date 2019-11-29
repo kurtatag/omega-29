@@ -1,0 +1,5 @@
+cat myfile.txt | wc
+# send the output of 'cat' to the stdin of 'wc'
+
+wc myfile.txt
+# send 'myfile.txt' to the stdin of 'wc'

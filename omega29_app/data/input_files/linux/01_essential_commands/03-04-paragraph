@@ -1,0 +1,5 @@
+Most modern filesystems use journaling. What is journaling?
+  - Designed to prevent data corruption from crashes or power loss
+  - Adds a bit of overhead to file writes
+  - Some high-performance servers might not necessarily need it
+  - Often not used on removable media such as removable flash drives

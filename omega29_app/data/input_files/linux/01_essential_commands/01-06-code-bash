@@ -1,0 +1,5 @@
+sudo apt install openssh-server
+# to install ssh server on our host
+
+ssh bob@ubuntu-vm
+# to connect to our host via ssh from other machine

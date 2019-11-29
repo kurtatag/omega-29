@@ -1,0 +1,6 @@
+# File Globbing:
+# *       - matches zero or more of any character
+# ?       - matches one of any character
+
+man 7 glob
+# to find out more about file globbing

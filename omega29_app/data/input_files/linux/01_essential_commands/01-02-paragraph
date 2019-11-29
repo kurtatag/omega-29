@@ -1,0 +1,2 @@
+remote text mode       = ssh
+remote graphical mode  = vnc

@@ -1,0 +1,5 @@
+su
+# become root (will require a root password)
+
+sudo -s
+# to switch to a shell with root's privileges

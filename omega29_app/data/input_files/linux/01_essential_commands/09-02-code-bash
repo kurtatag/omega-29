@@ -1,0 +1,14 @@
+chmod u+rwx myfile
+# give rwx permissions to the file user
+
+chmod g-rwx myfile
+# take away rwx permissions from the file group
+
+chmod o+rwx myfile
+# give rwx permissions to other
+
+chmod a+rwx myfile
+# give to everyone rwx permissions
+
+chmod 777 myfile
+# give to everyone rwx permissions

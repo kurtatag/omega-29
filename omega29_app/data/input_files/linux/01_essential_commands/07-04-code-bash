@@ -1,0 +1,5 @@
+mv testfile /tmp
+# move a file
+
+mv testfile testfile2
+# rename a file

@@ -1,0 +1,6 @@
+ReiserFS:
+  - Introduced in 2001
+  - Lots of new features that wouldn't be implemented by Ext, such as
+    special efficiencies for small text files
+  - Designed by Hans Reiser, who was sent to prison for murder in 2008
+  - Unlikely to continue development

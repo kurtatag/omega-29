@@ -1,0 +1,11 @@
+apropos "remove file"
+# to search for man pages that contain "remove file"
+# (we give it a command discription to get a command name)
+# the phrase is searched both in manual page names and descriptions
+# double quotes because the phrase consists of two words
+
+apropos .
+# if you want to see all the manual pages that are available
+
+mandb
+# update the database used by apropos

@@ -1,0 +1,3 @@
+ln f1 f2
+# create a hard link 'f2' to the file 'f1'
+# hard links show up as regular files

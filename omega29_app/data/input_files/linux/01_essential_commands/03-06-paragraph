@@ -1,0 +1,3 @@
+BtrFS is likely to be Ext4 replacement (designed by Oracle):
+  - B-Tree File System
+  - Drive pooling, snapshots, compression, online defragmentation

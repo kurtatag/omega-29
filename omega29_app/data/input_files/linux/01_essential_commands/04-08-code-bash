@@ -1,0 +1,8 @@
+cat myfile.txt | sed 's/aaa/AAA/'
+# substitute 'aaa' for 'AAA' (but only the first occurence on each line)
+
+cat myfile.txt | sed 's/aaa/AAA/g'
+# g - greedy (substitute all occurences of 'aaa' for 'AAA')
+
+cat myfile.txt | sed 's/[A-Ea-e]/_/g'
+# the same idea but with re

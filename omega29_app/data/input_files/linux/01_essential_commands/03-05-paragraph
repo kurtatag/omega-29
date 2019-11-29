@@ -1,0 +1,6 @@
+Ext  - stands for "Extended File System", was inroduced in 1992
+Ext2 - was the first file system to support extended file attibutes (x-attrs)
+       and 2TB+ drives
+Ext3 - introduced journaling
+Ext4 - designed to be backward compatible and introduced some additional
+       features

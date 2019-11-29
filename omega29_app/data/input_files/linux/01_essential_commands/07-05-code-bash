@@ -1,0 +1,5 @@
+mkdir mydir
+# create a new directory
+
+mkdir -p parentdir/childdir
+# create both directories at once

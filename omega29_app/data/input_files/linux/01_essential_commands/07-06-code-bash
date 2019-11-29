@@ -1,0 +1,5 @@
+rm myfile
+# remove a file
+
+rm -rf mydir/
+# remove a directory with its contents

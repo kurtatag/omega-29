@@ -1,0 +1,23 @@
+# 0 - Standard Input (stdin)
+# 1 - Standard Output (stdout)
+# 2 - Standard Error (stderr)
+
+
+wc < myfile.txt
+# send 'myfile.txt' to the stdin of 'wc'
+
+find / -name "home" 2>error.txt 1>output.txt
+
+
+wc << EOF
+line1
+line2
+EOF
+# send the following lines to the standard input of 'wc' untill 'EOF' is typed
+# any text marker can be used instead of 'EOF'
+
+wc<<EOF>output.txt
+line1
+line2
+EOF
+# we can also save the output to a file

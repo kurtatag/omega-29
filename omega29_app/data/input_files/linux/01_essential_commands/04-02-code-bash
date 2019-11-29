@@ -1,0 +1,2 @@
+file myfile      # determine file type
+stat myfile      # display file or filesystem status

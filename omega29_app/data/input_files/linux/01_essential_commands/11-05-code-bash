@@ -1,0 +1,3 @@
+sudo usermod -a -G wheel bob
+# give bob sudo permissions
+# usually on Linux this group 'wheel' has sudo permissions

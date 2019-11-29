@@ -1,0 +1,6 @@
+ln -s f1 f3
+# create a soft link 'f3' to the file 'f1'
+
+ln -s /boot .
+# soft links can link to other file systems while hard links are
+# limited to only one file system

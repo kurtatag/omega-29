@@ -1,0 +1,3 @@
+sudo visudo
+# this command opens /etc/sudoers in vi, it also does some checking to make
+# sure the file is formatted correctly

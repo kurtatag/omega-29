@@ -1,0 +1,8 @@
+Regular Expressions:
+  .    - Any character
+  *    - One or more of a specified character
+  []   - Range of characters
+  {}   - Number of characters
+  ^    - Beginning of line
+  $    - End of line
+  \n   - New line

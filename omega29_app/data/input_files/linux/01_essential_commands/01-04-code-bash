@@ -1,0 +1,7 @@
+who
+# to list who is logged to the system
+# -  (:0) means that the user uses display 0 (the first one) inside
+#    of this console
+# -  pts (instead of tty) means that the user is using
+#    the terminal remotely (via SSH)
+# -  pts stands for pseudo terminal slave

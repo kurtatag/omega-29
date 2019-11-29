@@ -1,0 +1,4 @@
+A block device is a set of addressable blocks used to store and retrieve data:
+  - Magnetic Hard Drive
+  - SSD
+  - USB flash storage

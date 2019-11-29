@@ -1,0 +1,26 @@
+tar -cvf databkup.tar /data
+# save many files into a single archive
+# -c  = create a new archive
+# -v  = verbose
+# -f  = use archive file
+# '.tar' isn't required, it's just a label
+
+tar -tvf databkup.tar
+# list all files in the archive verbosely
+
+
+gzip databkup.tar
+# compress files
+# databkup.tar will be replaced with databkup.tar.gz
+
+tar -cvfz databkup.tar.gz /data
+# save many files into a single archive and compress the archive with gzip
+
+
+tar -xf databkup.tar
+tar -xf databkup.tar.gz
+# extract all files from the archive
+# for compressed archives we don't need to specify the decompression strategy
+
+tar -xf archive.tar -C destination-folder
+# C - change the directory

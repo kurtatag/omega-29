@@ -1,0 +1,46 @@
+find -name "test.txt"
+# find the file in the current directory
+
+find / -name "test.txt"
+# find the file in the root directory (will search the entire file system)
+
+find / -iname "test.txt"
+# -iname   = like -name, but the match is case insensitive
+
+find / -not -name "test.txt"
+# find everything that is not "test.txt"
+
+find / -type c
+# find all character devices
+
+find / -type l
+# find all symbolic links
+
+find / -type d
+# find all directories
+
+find / -name "*.log"
+# find all files that end in ".log"
+
+find /usr/bin -size +27000c
+# find all files in /usr/bin that are greater than 27000 bytes (characters)
+
+find / -type f -mtime 1
+# files that were modified earlier than 1 day ago (files older than 1 day)
+
+find / -type f -mtime -1
+# files that were modified later than 1 day ago (files younger than 1 day)
+
+find / -type f -user bob
+# find all files that belong to user bob
+
+find /usr/bin -type f -perm 755
+# find all files in /usr/bin with permissions 755
+
+sudo find / -path "*/etc*"
+# do not treat '.' or '/' as metacharacters
+
+
+find -name "*.txt" -exec chmod 700 {} \;
+find -name "*.txt" -exec chmod 700 {} +
+# find all text files and give them 700 permissions

@@ -1,0 +1,7 @@
+cat myfile.txt | grep -E ".*"
+# E - Interprete "pattern" as an extended regular expression
+# grep uderstands three defferent versions of regular expression syntax:
+# basic (BRE), extended (ERE) and perl (PCRE)
+
+cat myfile.txt | grep -E "[Aa]"               # search for upper or lower 'a'
+cat myfile.txt | grep -E "[A-M][m-z]"         # you can specify two ranges

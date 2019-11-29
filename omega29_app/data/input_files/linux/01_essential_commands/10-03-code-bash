@@ -1,0 +1,3 @@
+whatis rm
+# display one-line manual page descriptions
+# (we give it a command name to get a command discription)

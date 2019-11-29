@@ -1,0 +1,5 @@
+echo "aaa;bbb;ccc" >> test.txt
+echo "aaa;bbb;ccc" >> test.txt
+cut -d ";" -f2,3 test.txt
+# cut each line of the file at a specified delimiter
+# and print to stdout the specified parts (-f = fields)

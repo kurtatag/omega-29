@@ -1,0 +1,2 @@
+man 7 man
+# this will give us the man page of "man" command from section 7 of man pages

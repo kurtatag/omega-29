@@ -1,0 +1,5 @@
+updatedb
+# update the database used by locate
+
+locate test.txt
+# find files by name (not as flexible as find)

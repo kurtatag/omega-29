@@ -1,0 +1,5 @@
+scp <source> <destination>
+# remote component - user@host:path-to-file
+
+scp bob@ubuntu-vm:file.txt .
+scp file.txt bob@ubuntu-vm:

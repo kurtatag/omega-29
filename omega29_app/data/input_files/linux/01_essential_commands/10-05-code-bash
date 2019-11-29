@@ -1,0 +1,3 @@
+man ls
+info ls           # sometimes more detailed info than in man
+help if           # info about bash built in commands

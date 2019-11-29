@@ -1,0 +1,5 @@
+Swap:
+  - Not used as an actual file system -- Virtual Memory!
+  - Used as a scratch space for stuff that won't fit in RAM
+  - Also used for hibernating
+  - Unlike Windows Linux reserves a separate empty partition for swap space
