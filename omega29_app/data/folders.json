@@ -32,6 +32,10 @@
         "endpoint": "linux.home"
     },
     {
+        "name": "Home/Linux/LFCS",
+        "endpoint": "linux.lfcs"
+    },
+    {
         "name": "Home/Git",
         "endpoint": "git.home"
     },

@@ -7,3 +7,8 @@ bp = Blueprint('linux', __name__, url_prefix='/linux')
 @bp.route('/')
 def home():
     return get_list(node_name='Home/Linux')
+
+
+@bp.route('/lfcs/')
+def lfcs():
+    return get_list(node_name='Home/Linux/LFCS')
