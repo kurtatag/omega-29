@@ -38,5 +38,10 @@
         "name": "Home/Linux/LFCS/01 Essential Commands",
         "data_dir": "data/input_files/linux/01_essential_commands",
         "endpoint": "linux.lfcs_01_essential_commands"
+    },
+    {
+        "name": "Home/Linux/LFCS/02 Operation of Running Systems",
+        "data_dir": "data/input_files/linux/02_operation_of_running_systems",
+        "endpoint": "linux.lfcs_02_operation_of_running_systems"
     }
 ]
