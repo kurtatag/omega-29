@@ -1,0 +1,2 @@
+sudo systemctl enable NetworkManager
+# this means that the service will start at boot

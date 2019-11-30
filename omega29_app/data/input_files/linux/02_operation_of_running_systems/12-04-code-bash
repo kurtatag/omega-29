@@ -1,0 +1,6 @@
+sysctl net.ipv4.ip_forward
+# to read the current value of the specified kernel parameter
+
+cat proc/sys/net/ipv4/ip_forward
+# the same idea as in previous line, but this time we read the value
+# directly from the file

@@ -1,0 +1,2 @@
+sudo rpm -qa gpg-pubkey*
+# query public keys we've imported

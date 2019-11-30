@@ -1,0 +1,2 @@
+sudo dpkg -i tree
+# install a package

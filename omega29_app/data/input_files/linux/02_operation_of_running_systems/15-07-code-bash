@@ -1,0 +1,5 @@
+ls -Z
+# show security contexts of files
+# -Z, --context  = Display security context so it fits on most displays.
+#                  Displays only mode, user, group, security context and
+#                  file name.

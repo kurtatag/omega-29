@@ -1,0 +1,5 @@
+ps -u cloud_user
+ps -U cloud_user
+# show all processes of the specified user
+# u = effective user
+# U = real user

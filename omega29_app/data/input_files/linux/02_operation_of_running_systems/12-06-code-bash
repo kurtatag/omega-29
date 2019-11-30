@@ -1,0 +1,6 @@
+sudo nano /etc/sysctl.conf
+# changes made in this file by adding a line 'net.ipv4.ip_forward=1'
+# will persist
+
+sudo sysctl -p
+# this will apply changes in /etc/sysctl.conf without reboot

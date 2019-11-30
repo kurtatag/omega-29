@@ -1,0 +1,3 @@
+sudo apt-get remove tree
+# remove a package (note that removing a package leaves its configuration
+# files on the system)

@@ -1,0 +1,2 @@
+crontab -l
+# list crontab entries you have for your user

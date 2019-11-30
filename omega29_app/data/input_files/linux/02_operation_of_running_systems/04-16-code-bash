@@ -1,0 +1,3 @@
+kill <pid>
+# send a signal to a process
+# the default signal for kill is TERM

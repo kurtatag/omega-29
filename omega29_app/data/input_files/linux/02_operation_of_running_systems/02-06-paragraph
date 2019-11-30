@@ -1,0 +1,3 @@
+Most Linux servers lack a graphical user interface and therefore start in
+runlevel 3. Servers with a GUI and desktop Unix systems start runlevel 5.
+When a server is issued a reboot command, it enters runlevel 6.

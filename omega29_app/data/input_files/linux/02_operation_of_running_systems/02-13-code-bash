@@ -1,0 +1,2 @@
+sudo systemctl set-default rescue.target
+# to set a default target

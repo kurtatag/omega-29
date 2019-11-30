@@ -1,0 +1,3 @@
+sudo yum search nmap
+# used to find packages when you know something about the package but
+# aren't sure of it's name

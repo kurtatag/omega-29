@@ -1,0 +1,2 @@
+sudo apt list nmap
+# can display a list of packages satisfying certain criteria

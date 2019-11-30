@@ -1,0 +1,2 @@
+cat /var/log/cron
+# get cron logs on CentOS

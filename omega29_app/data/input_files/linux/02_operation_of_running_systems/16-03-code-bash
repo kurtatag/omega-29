@@ -1,0 +1,5 @@
+dpkg -L openssh-server
+# show all files that belong to the package (on Ubuntu)
+
+dpkg -S /usr/sbin/sshd
+#show which package the file belongs to (on Ubuntu)

@@ -1,0 +1,2 @@
+sudo semanage fcontext -l
+# to view all the security contexts on our system

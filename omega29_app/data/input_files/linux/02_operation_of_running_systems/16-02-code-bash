@@ -1,0 +1,6 @@
+rpm -ql openssh-server
+# show all files that belong to the package (on CentOS)
+
+rpm -qf /usr/sbin/sshd
+yum whatprovides /usr/sbin/sshd
+# show which package the file belongs to (on CentOS)

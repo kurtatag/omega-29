@@ -1,0 +1,3 @@
+sudo apt-get upgrage
+# install available upgrades of all packages currently installed on
+# the system from the sources configured

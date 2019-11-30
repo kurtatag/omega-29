@@ -1,0 +1,5 @@
+ps -g cloud_user
+ps -G cloud_user
+# show processes run by specified group
+# g = effective group
+# G = real group

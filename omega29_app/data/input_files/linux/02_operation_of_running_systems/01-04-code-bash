@@ -1,0 +1,2 @@
+sudo shutdown -c
+# cancel a pending shutdown

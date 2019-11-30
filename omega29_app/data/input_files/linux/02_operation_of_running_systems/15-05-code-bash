@@ -1,0 +1,3 @@
+sestatus
+# displays data about whether SELinux is enabled or disabled,
+# location of key directories, and the loaded policy with its status

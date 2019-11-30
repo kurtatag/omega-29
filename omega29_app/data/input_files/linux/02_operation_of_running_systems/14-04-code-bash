@@ -1,0 +1,2 @@
+sudo systemctl disable NetworkManager
+# this means that the service will not start at boot

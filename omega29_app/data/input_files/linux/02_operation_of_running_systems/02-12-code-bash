@@ -1,0 +1,2 @@
+sudo systemctl isolate reboot.target
+# to switch to the specified target

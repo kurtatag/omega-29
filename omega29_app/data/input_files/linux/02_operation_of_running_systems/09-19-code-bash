@@ -1,0 +1,2 @@
+sudo rpm -ql openssh-server
+# will show every file installed by the package

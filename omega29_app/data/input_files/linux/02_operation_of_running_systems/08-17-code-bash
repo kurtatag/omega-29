@@ -1,0 +1,3 @@
+sudo apt update
+# is used to download package information (a list of available packages)
+# from all configured sources

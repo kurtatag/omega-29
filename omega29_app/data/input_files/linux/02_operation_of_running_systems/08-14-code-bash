@@ -1,0 +1,3 @@
+sudo apt-get changelog tree
+# tries to download the changelog of a package and displays it
+# through sensible-pager

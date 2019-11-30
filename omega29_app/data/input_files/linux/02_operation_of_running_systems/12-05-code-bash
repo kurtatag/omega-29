@@ -1,0 +1,2 @@
+sudo sysctl -w net.ipv4.ip_forward=1
+# this will set the kernel parameter value temporarily until reboot

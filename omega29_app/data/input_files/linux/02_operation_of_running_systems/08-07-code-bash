@@ -1,0 +1,3 @@
+sudo apt-get update
+# download information from all configured sources about all packages
+# available for installation

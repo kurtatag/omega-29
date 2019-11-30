@@ -1,0 +1,2 @@
+crontab -e
+# a command to add an entry to the /etc/crontab, -e stands for edit

@@ -1,0 +1,3 @@
+sudo apt search nmap
+# can be used to search for the given regex(7) term(s) in the list of
+# available packages and display matches

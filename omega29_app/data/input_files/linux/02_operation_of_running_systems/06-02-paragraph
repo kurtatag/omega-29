@@ -1,0 +1,2 @@
+Cron - long history, suitable for machines that are always on.
+Anacron - newer, suitable for machines that sometimes sleep.

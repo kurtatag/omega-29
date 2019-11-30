@@ -1,0 +1,2 @@
+sudo yum groupinstall 'File and Print Server'
+# install a group of packages

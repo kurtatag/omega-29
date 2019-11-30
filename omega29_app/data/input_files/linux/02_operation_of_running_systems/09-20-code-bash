@@ -1,0 +1,2 @@
+sudo rpm -qa --last
+# show all the recently altered packages

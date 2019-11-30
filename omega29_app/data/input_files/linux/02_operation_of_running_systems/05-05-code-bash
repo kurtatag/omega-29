@@ -1,0 +1,2 @@
+grep NetworkManager syslog | less
+# to isolate the entries in syslog made by NetworkManager

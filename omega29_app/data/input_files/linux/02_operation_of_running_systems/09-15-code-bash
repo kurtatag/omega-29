@@ -1,0 +1,2 @@
+sudo yum history
+# view the history of past transactions

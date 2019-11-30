@@ -1,0 +1,2 @@
+sudo rpm -q xterm
+# query whether the package is installed

@@ -1,0 +1,5 @@
+sudo shutdown -h now
+# shutdown (power off) the machine
+
+sudo shutdown -h +5
+# power off in 5 minutes

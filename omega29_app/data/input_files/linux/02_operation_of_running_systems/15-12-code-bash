@@ -1,0 +1,2 @@
+cd /etc/apparmor.d
+# AppArmor profiles are stored in this directory

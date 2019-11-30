@@ -1,0 +1,2 @@
+sysctl -a
+# this command will show all kernel parameters we can set

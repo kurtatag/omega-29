@@ -1,0 +1,6 @@
+sudo yum install yum-utils
+# this package includes utilities by different authors that make yum easier
+# and more powerful to use (e.g. yumdownloader)
+
+sudo yumdownloader xterm
+# download but do not install a package

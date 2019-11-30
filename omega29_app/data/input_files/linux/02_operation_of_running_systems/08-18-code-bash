@@ -1,0 +1,2 @@
+sudo apt list --upgradable
+# to list packages which have upgrades

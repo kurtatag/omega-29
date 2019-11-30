@@ -1,0 +1,2 @@
+sudo apt show nmap
+# show info about a given package

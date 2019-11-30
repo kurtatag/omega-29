@@ -1,0 +1,3 @@
+ps auxZ
+# show security contexts of processes
+# Z  = add a column for security data

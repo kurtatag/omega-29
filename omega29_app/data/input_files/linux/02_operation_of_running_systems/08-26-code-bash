@@ -1,0 +1,2 @@
+sudo apt remove nmap
+# to remove the specified package

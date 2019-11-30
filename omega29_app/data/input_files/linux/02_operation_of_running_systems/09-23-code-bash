@@ -1,0 +1,2 @@
+sudo rpm --rebuilddb
+# rebuild rpm db

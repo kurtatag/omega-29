@@ -1,0 +1,2 @@
+cd /etc/systemd/system
+# here you can find symlinks to services that start at different runlevels

@@ -1,0 +1,2 @@
+zcat syslog.3.gz
+# to read compressed text files

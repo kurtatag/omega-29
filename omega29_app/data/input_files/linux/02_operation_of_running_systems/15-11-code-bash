@@ -1,0 +1,2 @@
+sudo aa-status
+# display various information about the current AppArmor policy

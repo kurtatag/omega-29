@@ -1,0 +1,2 @@
+sudo fsck -y /dev/sda1
+# check and repair a Linux filesystem

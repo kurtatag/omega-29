@@ -1,0 +1,2 @@
+sudo apt install --download-only uuid
+# this will only download the package without installing it

@@ -1,0 +1,4 @@
+A runlevel is one of the modes that a Unix-based operating system will
+run in. Each runlevel has a certain number of services stopped or started,
+giving the user control over the behavior of the machine. Conventionally,
+seven runlevels exist, numbered from zero to six.

@@ -1,0 +1,2 @@
+sudo yum info nmap
+# used to list a description and summary information about available packages

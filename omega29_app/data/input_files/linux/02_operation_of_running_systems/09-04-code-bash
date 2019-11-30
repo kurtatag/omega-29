@@ -1,0 +1,8 @@
+sudo yum list
+# list all available packages
+
+sudo yum list installed
+# list installed packages
+
+sudo yum list openssh-server
+# list various info about available packages

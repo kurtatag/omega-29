@@ -1,0 +1,2 @@
+sudo yum purge nmap
+# remove a package with its dependencies

@@ -1,0 +1,2 @@
+sudo rpm -qdf /usr/bin/vmstat
+# show docs (every place where vmstat is mentioned)

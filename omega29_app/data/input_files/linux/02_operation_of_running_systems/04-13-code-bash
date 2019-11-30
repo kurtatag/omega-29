@@ -1,0 +1,2 @@
+ps -p <pid>
+# show info about that one process (with spicfied pid)

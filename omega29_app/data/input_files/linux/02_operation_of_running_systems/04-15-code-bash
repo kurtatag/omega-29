@@ -1,0 +1,3 @@
+ps -C sshd
+# show process for sshd
+# C = command (executable) name

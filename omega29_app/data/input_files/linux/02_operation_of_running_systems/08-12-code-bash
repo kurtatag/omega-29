@@ -1,0 +1,3 @@
+sudo apt-get purge tree
+# purge is identical to remove except that packages are removed and purged
+# (any configuration files are deleted too)

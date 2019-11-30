@@ -1,0 +1,2 @@
+sudo apt-get download tree
+# download the given binary package into the current directory

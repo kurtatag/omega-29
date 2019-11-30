@@ -1,0 +1,1 @@
+With SELinux every process, file and port has a particular security context.

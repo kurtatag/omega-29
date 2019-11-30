@@ -1,0 +1,2 @@
+ps -f
+# show processes in full format

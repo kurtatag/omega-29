@@ -1,0 +1,2 @@
+sudo apt-get check
+# updates the package cache and checks for broken dependencies

@@ -1,0 +1,8 @@
+sudo yum repolist
+# list all configured yum repos
+
+sudo yum repolist all
+# list all repos yum knows about
+
+sudo yum --enablerepo=extras-source/7 install <packagename>
+# enable repo

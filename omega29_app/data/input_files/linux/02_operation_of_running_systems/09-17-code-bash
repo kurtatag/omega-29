@@ -1,0 +1,2 @@
+sudo rpm -qpR <packagename>
+# query the dependencies

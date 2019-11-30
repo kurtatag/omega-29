@@ -1,0 +1,4 @@
+yes > /dev/null &
+# yes - output a string (specified string or 'y') repeatedly until killed
+# Data written to the /dev/null and /dev/zero special files is discarded
+# & - to run a job in the background

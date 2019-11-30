@@ -1,0 +1,5 @@
+sudo apt-get autoremove
+# autoremove is used to remove packages that were automatically installed
+# to satisfy dependencies for other packages and are now no longer needed
+# as dependencies changed or the package(s) needing them were removed in
+# the meantime

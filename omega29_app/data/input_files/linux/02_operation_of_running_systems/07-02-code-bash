@@ -1,0 +1,2 @@
+cat /var/log/syslog | grep -i cron
+# get cron logs on Ubuntu

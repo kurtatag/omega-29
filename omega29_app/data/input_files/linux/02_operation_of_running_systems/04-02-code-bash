@@ -1,0 +1,65 @@
+top
+# display Linux processes
+
+#  TOP TERMINOLOGY:
+#
+#  load average  - how much work the system's processors have to do versus their
+#                  ability to get it done
+#                  -  1.00 = 100% of one processor core
+#                  -  2.00 means either one core has twice as much work as it
+#                     can handle or two cores are right at their full capacity
+#                  -  it's important to know how many processor cores your
+#                     system has for this number to have meaning
+#                  -  the three numbers represent the load over the past minute,
+#                     5 minutes and 15 minutes
+#
+#  tasks         - processes
+#
+#  %Cpu(s):
+#  us            - user processes
+#  sy            - system processes
+#  ni            - niced processes
+#  id            - processor's time spent idling
+#  wa            - processor's time spent waiting for input/output operations
+#  hi            - processor's time spent on hardware interrupts
+#  si            - processor's time spent on software interrupts
+#  st            - processor's time stolen by hipervisor (if you are using a
+#                  virtual machine)
+#
+#  Mem:
+#  buff/cache    - used by buffer or cache for a disk
+#
+#  Swap:
+#  avail Mem     - how much memory is still available which would be used before
+#                  swap is used
+#
+#  Table Columns:
+#  PID           - process ID
+#  USER          - user responsible for the process
+#  PR            - priority, the relative importance of the process or an
+#                  indication of how likely a process is to get access to
+#                  processor resources in competition with others
+#                  Priorities start at zero and go up from there, with lower
+#                  numbers meaning a higher priority
+#  NI            - NISEness of a process or a modifier on the real priority that
+#                  can be set by the user. This scale goes from 19 to negative
+#                  20. And here, the more negative a number is, the higher
+#                  priority it confers on a process because adding the NISTness
+#                  value to the regular priority moves it closer to zero if it's
+#                  a negative number and further away from zero if it's
+#                  positive.
+#  VIRT          - virtual memory used
+#  RES           - physical memory used
+#  SHR           - shared memory used
+#  S             - S means a process is sleeping, R means a process is running
+#
+#  COMMANDS:
+#  h             - will bring up a fairly spartan help menu
+#  q             - return back from the help menu
+#  y             - toggle highlight for running (not sleeping) tasks
+#  x             - toggle highlight for column which is currently the sort field
+#  b             - to toggle the highlight, turned on by 'x' or 'y' from bold
+#                  (which is difficult to see) to inverse
+#  > or <        - to move the sorting column left or right
+#  R             - to change the sort order of the column
+#  q             - quit from top
