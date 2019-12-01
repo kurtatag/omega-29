@@ -1,3 +1,12 @@
 sudo visudo
-# this command opens /etc/sudoers in vi, it also does some checking to make
-# sure the file is formatted correctly
+# this command opens /etc/sudoers in vi, it also does some checking
+# to make sure the file is formatted correctly
+
+# %sudo ALL=(ALL:ALL) ALL
+# %          - means that it is a group name rather than a user name
+# 1st ALL    - means that members of the group can connect from all hostnames
+# (ALL:ALL)  - means that they can use sudo to emulate all users and all groups
+# 4th ALL    - means that the user or group can run all commands
+
+# username ALL=(ALL) NOPASSWD: ALL
+# allow username to run all commands without a password

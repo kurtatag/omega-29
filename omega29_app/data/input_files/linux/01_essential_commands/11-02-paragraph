@@ -1,1 +1,2 @@
-sudoers are listed in /etc/sudoers
+- sudoers are listed in /etc/sudoers
+- /etc/sudoers.d has priority over /etc/sudoers
