@@ -1,0 +1,29 @@
+A line from /etc/passwd file:
+scott:x:1000:1000:scott,,,:/home/scott:/bin/bash
+
+Expanation of the line:
+[username] : [x] : [uid] : [gid] : [comment] : [home folder] : [default shell]
+
+[username]       - what we type to login and that can be up to 32 characters
+                   long with no spaces
+[x]              - This represents the fact that the user's password is stored
+                   in the shadow file. Shadow is only readable by root and
+                   members of the shadow group and only root can write to it.
+[uid]            - User ID, the numeric representation of the user.
+                   Typically, normal users start at number 1,000 and go up
+                   from there as you add more users. The root user has user ID
+                   zero and system accounts start from there.
+[gid]            - Group ID, the numeric representation of the user's primary
+                   group. A user can be a member of more than one group but
+                   the primary group is listed here. And the others are listed
+                   in the group file
+[comment]        - A description or comment field. Usually this is where
+                   a human friendly name is stored like a full first and last
+                   name.
+[home folder]    - The path to the user's home directory where their stuff
+                   is stored and where they'll start out when they log into
+                   the system at the command line.
+[default shell]  - The user's default shell.
+                   Usually it'll be set to bash but for some accounts that
+                   aren't permitted to login it'll be set to 'no login' or
+                   'false'.

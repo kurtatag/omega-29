@@ -1,0 +1,10 @@
+env
+# print all environment variables
+
+export MY_VAR="this is a test"
+# set export attribute for shell variables
+# (in other words, create an environment variable)
+
+unset MY_VAR
+# unset values and attributes of shell variables and functions
+# (in other words, delete a variable)

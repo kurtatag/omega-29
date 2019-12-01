@@ -1,0 +1,7 @@
+sudo adduser bob
+# to add a regular user
+# atributes such as uid, gid, home directory etc will be set automatically
+
+sudo adduser --system botuser
+# to create a system user (with uid < 1000, with no group, password and shell)
+# you can not login with a system user

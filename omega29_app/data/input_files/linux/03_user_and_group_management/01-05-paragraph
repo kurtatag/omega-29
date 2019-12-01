@@ -1,0 +1,10 @@
+A line from /etc/group file:
+lpadmin:x:119:scott,mary
+
+Expanation of the line:
+[1] : [2] : [3] : [4]
+
+[1]  - group name
+[2]  - group password
+[3]  - numeric group ID
+[4]  - members of the group

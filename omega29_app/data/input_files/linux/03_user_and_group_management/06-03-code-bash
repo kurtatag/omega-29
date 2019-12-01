@@ -1,0 +1,5 @@
+man limits.conf
+# configuration file for the pam_limits module
+
+sudo nano /etc/security/limits.conf
+# in this file you can limit the resouces used by a user or a group

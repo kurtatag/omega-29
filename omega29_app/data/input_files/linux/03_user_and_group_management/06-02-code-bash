@@ -1,0 +1,5 @@
+top -u bob
+# to see the information about this user's processes
+
+ps -u bob
+# to isolate this user's processes

@@ -1,0 +1,2 @@
+less /etc/pam.conf
+# this file is ignored if there is /etc/pam.d on the system

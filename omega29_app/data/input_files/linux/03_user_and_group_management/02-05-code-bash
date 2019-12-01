@@ -1,0 +1,5 @@
+passwd
+# this way a user can change his own password
+
+sudo passwd bob
+# this way an administrator can change other user's password

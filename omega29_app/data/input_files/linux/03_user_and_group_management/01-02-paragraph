@@ -1,0 +1,8 @@
+/etc/passwd    - The list of users is maintained in this file.
+/etc/group     - The list of groups is maintained in this file.
+/etc/shadow    - The list of encrypted passwords of users is maintained in
+                 this file.
+
+We don't edit these files directly, but instead we have a selection of tools
+that let us create, modify and delete users and groups and find out
+information about them.

@@ -1,0 +1,10 @@
+During a login shell, these configuration script files are called
+in this order:
+  1) /etc/profile
+  2) Then the order branches out, the first file that is found is used,
+     all of the others are ignored even if they exist:
+       a) ~/.bash_profile
+       b) ~/.bash_login
+       c) ~/.profile
+  3) ~/.bashrc
+  4) /etc/bashrc

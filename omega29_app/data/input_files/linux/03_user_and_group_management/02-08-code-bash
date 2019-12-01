@@ -1,0 +1,4 @@
+sudo usermod -l bob_admin bob
+# this way an administrator can change other user's login
+# bob_admin  - new login
+# bob        - old login

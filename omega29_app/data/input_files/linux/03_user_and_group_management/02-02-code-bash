@@ -1,0 +1,3 @@
+id bob
+# Print user and group information for the specified USER, or (when USER
+# omitted) for the current user.

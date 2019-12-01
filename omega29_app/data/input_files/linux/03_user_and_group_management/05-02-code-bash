@@ -1,0 +1,3 @@
+cd /etc/skel
+# files from this directory get copied to user's home whenever a new user
+# is created with adduser

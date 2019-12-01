@@ -1,0 +1,5 @@
+chfn
+# this way a user can change his own full name
+
+sudo chfn bob
+# this way an administrator can change other user's full name

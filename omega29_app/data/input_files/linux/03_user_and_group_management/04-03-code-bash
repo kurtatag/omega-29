@@ -1,0 +1,21 @@
+cat ~/.bashrc  # non-login file
+cat ~/.bash_profile
+cat ~/.profile
+# in these files you can set up system wide environment variables for
+# a particular user
+
+cat /etc/environment
+# in this file you can set up system wide environment variables for
+# all users
+
+cat /etc/bashrc
+# system-wide variables, functions and aliases
+
+cat /etc/profile
+# in this file you can set up system wide environment variables for
+# all users (used during a login shell!!!)
+
+cd /etc/profile.d
+# you can put your own script with environment settings into this folder
+# this is the recommended way (these scripts will execute only if you login
+# remotely)

@@ -1,0 +1,3 @@
+groups bob
+# print the groups a user is in
+# (if no USERNAME is specified, then for the current process)

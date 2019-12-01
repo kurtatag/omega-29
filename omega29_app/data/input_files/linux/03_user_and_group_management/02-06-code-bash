@@ -1,0 +1,5 @@
+chsh
+# this way a user can change his own shell
+
+sudo chsh bob
+# this way an administrator can change other user's shell

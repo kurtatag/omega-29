@@ -1,0 +1,2 @@
+sudo nano /etc/security/access.conf
+# in this file we can set who can login and from where

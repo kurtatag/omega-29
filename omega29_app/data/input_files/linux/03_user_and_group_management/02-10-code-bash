@@ -1,0 +1,2 @@
+sudo deluser bob
+# this way an administrator can delete other user's account

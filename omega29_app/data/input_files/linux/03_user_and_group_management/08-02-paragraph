@@ -1,0 +1,2 @@
+Pluggable Authentication Modules (PAM) in Linux allows you to configure
+and reconfigure how authentication takes place in PAM-aware applications.

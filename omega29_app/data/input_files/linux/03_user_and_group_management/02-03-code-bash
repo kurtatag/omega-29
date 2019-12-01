@@ -1,0 +1,2 @@
+less /etc/adduser.conf
+# the file sets some defaults for newly created users

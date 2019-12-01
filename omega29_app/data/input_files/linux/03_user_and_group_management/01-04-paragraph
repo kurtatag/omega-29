@@ -1,0 +1,15 @@
+A line from /etc/shadow file:
+scott:$6$plsDQK5D$uBHOsgqD:17626:0:99999:7:::
+
+Expanation of the line:
+[1] : [2] : [3] : [4] : [5] : [6] : [7] : [8] : [9]
+
+[1]  - login
+[2]  - encrypted password
+[3]  - last password change (days)
+[4]  - min password age
+[5]  - max password age
+[6]  - warning period
+[7]  - inactivity period
+[8]  - expiration date
+[9]  - reserved

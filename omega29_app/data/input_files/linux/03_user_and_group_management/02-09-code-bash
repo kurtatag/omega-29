@@ -1,0 +1,5 @@
+sudo usermod -d /home/bob_admin -m bob_admin
+# this way an administrator can change other user's home folder
+# -d  sets the home folder for an account
+# -m  moves an existing home folder for a user
+# -m  doesn't work by itself (the two flags should be used together)
