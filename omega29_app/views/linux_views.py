@@ -25,3 +25,9 @@ def lfcs_01_essential_commands():
 def lfcs_02_operation_of_running_systems():
     node_name = 'Home/Linux/LFCS/02 Operation of Running Systems'
     return get_page(node_name=node_name)
+
+
+@bp.route('/lfcs/03_user_and_group_management')
+def lfcs_03_user_and_group_management():
+    node_name = 'Home/Linux/LFCS/03 User and Group Management'
+    return get_page(node_name=node_name)

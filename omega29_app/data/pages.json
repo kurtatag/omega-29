@@ -43,5 +43,10 @@
         "name": "Home/Linux/LFCS/02 Operation of Running Systems",
         "data_dir": "data/input_files/linux/02_operation_of_running_systems",
         "endpoint": "linux.lfcs_02_operation_of_running_systems"
+    },
+    {
+        "name": "Home/Linux/LFCS/03 User and Group Management",
+        "data_dir": "data/input_files/linux/03_user_and_group_management",
+        "endpoint": "linux.lfcs_03_user_and_group_management"
     }
 ]
