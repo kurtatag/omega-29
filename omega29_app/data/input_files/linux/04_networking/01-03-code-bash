@@ -1,0 +1,30 @@
+cd /etc/sysconfig/network-scripts
+# on CentOS network interfaces are configured here
+# e.g. less ifcfg-ens5
+
+less ifcfg-ens5
+#   # to configure dynamic ip address
+#   BOOTPROTO=dhcp
+#   DEVICE=ens5
+#   HWADDR=06:99:34:b5:4e:fe
+#   ONBOOT=yes
+#   TYPE=Ethernet
+#   USERCTL=no
+#
+#   # to configure static ip address
+#   BOOTPROTO=none
+#   DEVICE=ens5
+#   HWADDR=06:99:34:b5:4e:fe
+#   ONBOOT=yes
+#   TYPE=Ethernet
+#   IPADDR=10.9.8.7
+#   PREFIX=24
+#   GATEWAY=10.9.8.1
+#
+#   # to also configure static hostname resolution
+#   DNS1=10.9.8.53
+#   DNS2=8.8.8.8
+#   DNS3=8.8.4.4
+
+sudo systemctl restart network
+# restart network service after configuring ifcfg-ens5

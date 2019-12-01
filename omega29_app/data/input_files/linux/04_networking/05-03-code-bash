@@ -1,0 +1,5 @@
+route -n
+# show routing table
+#  -n   = show numerical addresses instead of trying to determine symbolic
+# host names. This is useful if you are trying to determine why the route
+# to your nameserver has vanished.

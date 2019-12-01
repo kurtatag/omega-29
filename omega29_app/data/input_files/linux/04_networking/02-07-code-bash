@@ -1,0 +1,3 @@
+sudo systemctl enable xinetd
+# that's all you need to configure a services to start automatically
+# at boot on a system using systemd

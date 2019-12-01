@@ -1,0 +1,2 @@
+By default firewall will deny all incoming traffic, that is clients will be
+able to connect but will not be able to send data (the data will be ignored).

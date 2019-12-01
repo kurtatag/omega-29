@@ -1,0 +1,41 @@
+sudo su -
+# root can get some additional information from netstat
+
+netstat -a
+# show both listening and non-listening (for TCP this means established
+# connections) sockets
+
+netstat -at
+# -t = tcp (show anly tcp connections)
+
+netstat -au
+# show only udp connections
+
+netstat -l
+# show all listening connections
+
+netstat -x
+# show all unix connections
+
+netstat -s
+# display summary statistics for each protocol
+
+netstat -tp
+# -p = show the PID and name of the program to which each socket belongs
+
+netstat -r
+# Display the kernel routing tables. See the description in route(8)
+# for details.  netstat -r and route -e produce the same output.
+
+netstat -i
+# Display a table of all network interfaces, or the specified interface.
+
+netstat -ie
+# this will produce the same result as ifconfig
+
+netstat -cat
+# -c = this will cause netstat to print the selected information every
+# second continuously
+
+netstat --statistics --raw
+# to get raw info

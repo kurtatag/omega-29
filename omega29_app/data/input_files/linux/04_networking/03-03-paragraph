@@ -1,0 +1,11 @@
+packet filtering - (also referred to as static packet filtering)
+controlling access to a network by analyzing the incoming and outgoing
+packets and letting them pass or halting them based on the IP addresses
+of the source and destination; packet filtering is one technique, among
+many, for implementing security firewalls
+
+Network Address Translation (NAT) is the process where a network device,
+usually a firewall, assigns a public address to a computer (or group of
+computers) inside a private network. The main use of NAT is to limit the
+number of public IP addresses an organization or company must use, for
+both economy and security purposes.

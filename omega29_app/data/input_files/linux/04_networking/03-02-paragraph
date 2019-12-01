@@ -1,0 +1,23 @@
+Firewalls in Linux, in general, all function within, and because of,
+the existence of something called Netfilter, which is the networking guts
+of the Linux kernel. But you can't directly configure Netfilter, so you
+need some tools to get in there and make things work. After years of
+foundational technology coming to life and passing away, today, we have
+two conflicting demons, that both can be used to make Netfilter do its
+firewalling thing. One is called Iptables, the other is called Firewalld.
+Iptables has been around longer, but, as such, even though you can still
+install it and run it, you may find it becomes deprecated in the near
+future, so you might not want to use it. Firewalld is relatively newer.
+It functions on a different security metaphor, and in certain ways,
+can be thought of as easier to configure. Iptables and Firewalld cannot,
+however, run at the same time, on the same system.
+
+Ubuntu uses a user-friendly frontend to manage the iptables rules. This tool
+is called ufw for uncomplicated firewall. And compared to writing rules for
+iptables, it is fairly uncomplicated.
+
+firewalld is used in the following Linux distributions as the default
+firewall management tool:
+  - RHEL 7, CentOS 7
+  - Fedora 18 and newer
+  - Available for several other distributions

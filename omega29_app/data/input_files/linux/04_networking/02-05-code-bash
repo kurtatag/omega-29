@@ -1,0 +1,6 @@
+cat /etc/services | grep telnet
+# to make sure that port 53 is assigned to telnet
+
+less /etc/inetd.conf
+# make sure that telnet is configured, like so:
+# telnet   stream  tcp     nowait  telnetd /usr/sbin/tcpd  /usr/sbin/in.telnetd

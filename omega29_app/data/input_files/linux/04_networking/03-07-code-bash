@@ -1,0 +1,16 @@
+sudo ufw reject 3000
+# now clients will not be able even to connect to port 3000
+
+sudo ufw allow 3000
+# to allow incoming data for port 3000
+
+sudo ufw delete 1
+sudo ufw delete allow 3000
+# to delete a rule either by its number or by its name
+
+sudo ufw allow proto tcp from 10.0.2.6 to 10.1.2.10 port 3000
+# to allow tcp traffic for port 3000 from a particular host
+
+cd /etc/ufw
+# In this folder ufw maintains a series of default rules in a format that the
+# underlying iptables program can read.

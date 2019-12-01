@@ -1,0 +1,13 @@
+sudo apt install xinetd
+# inetd (internet service daemon) is a super-server daemon on many Unix
+# systems that provides Internet services. For each configured service,
+# it listens for requests from connecting clients. Requests are served by
+# spawning a process which runs the appropriate executable, but simple
+# services such as echo are served by inetd itself. External executables,
+# which are run on request, can be single- or multi-threaded.
+# First appearing in 4.3BSD,[1] it is generally located at /usr/sbin/inetd.
+# In recent years, because of the security limitations in the original design
+# of inetd, it has been replaced by xinetd.
+
+systemctl status xinetd
+# check the status of xinetd.service

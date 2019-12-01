@@ -1,0 +1,16 @@
+sudo iptables -L
+# to list all current policies
+
+sudo iptables --flush
+# Flush the selected chain (all the chains in the table if none is given).
+# This is equivalent to deleting all the rules one by one.
+
+sudo iptables -P FORWARD ACCEPT
+# the teacher makes sure all students have the same configuration
+
+iptables -A INPUT --protocol icmp --in-interface eth0 -j REJECT
+# set a rule to filter out any ping requests (through icmp protocol)
+# if we reject we get an error message back on the calling machine
+
+iptables -A INPUT --protocol icmp --in-interface eth0 -j DROP
+# a drop is not going to respond with anything

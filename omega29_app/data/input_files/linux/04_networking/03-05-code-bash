@@ -1,0 +1,11 @@
+sudo systemctl status ufw
+# to check the status of ufw.service
+
+sudo ufw enable
+# to activate firewall and also enable it on system startup
+
+sudo ufw disable
+# to stop firewall and also disable it on system startup
+
+sudo ufw status verbose
+# to show status of firewall

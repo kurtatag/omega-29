@@ -1,0 +1,13 @@
+sudo apt install ntp
+# ntp is used to keep computer clocks accurate by synchronizing them over
+# the Internet or a local network
+
+sudo nano /etc/ntp.conf
+# you can specify here servers for synchronization
+# instructions are inside the file
+
+sudo systemctl restart ntp
+# after changes in in /etc/ntp.conf
+
+date
+# enjoy the exact time

@@ -1,0 +1,2 @@
+sudo systemctl start|stop|status service-name
+# start, stop or check the status of network services

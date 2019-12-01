@@ -1,0 +1,10 @@
+sudo ip route add 8.8.0.0/16 proto static metric 10 \
+via inet 10.9.185.143 dev eth0
+# add a new route
+
+traceroute 8.8.8.8
+# check the new route
+
+sudo ip route del 8.8.0.0/16 proto static metric 10 \
+via inet 10.9.185.143 dev eth0
+# remove a route

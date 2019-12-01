@@ -1,0 +1,24 @@
+cd /etc/network/interfaces.d
+# on Ubuntu network interfaces are configured here in *.cfg
+
+less 50-cloud-init.cfg
+#   auto lo
+#   iface lo inet loopback
+#
+#   # to configure dynamic ip address
+#   auto ens5
+#   iface ens5 inet dhcp
+#
+#   # to configure static ip address
+#   auto ens5
+#   iface ens5 inet static
+#   address 10.9.8.7
+#   netmask 255.255.255.0
+#   gateway 10.9.8.1
+#
+#   # to also configure static hostname resolution
+#   dns-search mydomain.com
+#   dns-nameservers 8.8.8.8 8.8.4.4
+
+sudo ifup ens5
+# restart ens5 network interface
