@@ -36,3 +36,8 @@ def lfcs_03_user_and_group_management():
 @bp.route('/lfcs/04_networking')
 def lfcs_04_networking():
     return get_page(node_name='Home/Linux/LFCS/04 Networking')
+
+
+@bp.route('/lfcs/05_service_configuration')
+def lfcs_05_service_configuration():
+    return get_page(node_name='Home/Linux/LFCS/05 Service Configuration')

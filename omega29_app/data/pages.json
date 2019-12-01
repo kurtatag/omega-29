@@ -53,5 +53,10 @@
         "name": "Home/Linux/LFCS/04 Networking",
         "data_dir": "data/input_files/linux/04_networking",
         "endpoint": "linux.lfcs_04_networking"
+    },
+    {
+        "name": "Home/Linux/LFCS/05 Service Configuration",
+        "data_dir": "data/input_files/linux/05_service_configuration",
+        "endpoint": "linux.lfcs_05_service_configuration"
     }
 ]
