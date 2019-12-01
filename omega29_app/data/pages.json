@@ -48,5 +48,10 @@
         "name": "Home/Linux/LFCS/03 User and Group Management",
         "data_dir": "data/input_files/linux/03_user_and_group_management",
         "endpoint": "linux.lfcs_03_user_and_group_management"
+    },
+    {
+        "name": "Home/Linux/LFCS/04 Networking",
+        "data_dir": "data/input_files/linux/04_networking",
+        "endpoint": "linux.lfcs_04_networking"
     }
 ]
