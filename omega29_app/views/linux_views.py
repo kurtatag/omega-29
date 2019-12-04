@@ -41,3 +41,8 @@ def lfcs_04_networking():
 @bp.route('/lfcs/05_service_configuration')
 def lfcs_05_service_configuration():
     return get_page(node_name='Home/Linux/LFCS/05 Service Configuration')
+
+
+@bp.route('/lfcs/06_storage_management')
+def lfcs_06_storage_management():
+    return get_page(node_name='Home/Linux/LFCS/06 Storage Management')
