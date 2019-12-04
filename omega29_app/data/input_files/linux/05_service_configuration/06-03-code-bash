@@ -1,0 +1,11 @@
+yum install \
+http://ngtech.co.il/repo/centos/7/squid-repo-1-1.el7.centos.noarch.rpm -y
+yum install squid
+# install the package on CentOS
+
+apt install squid
+# install the package on Ubuntu
+
+systemctl status squid
+# make sure the service is running
+# (otherwise enable and start the service)

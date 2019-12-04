@@ -1,0 +1,13 @@
+# on a client machine
+
+
+yum install nfs-utils
+
+mkdir -p /mnt/remote
+# we need to make a mount point for a remote share
+
+mount -t nfs 172.31.124.130:/share /mnt/remote
+# to mount a remote share
+# -t  = type
+# 172.31.124.130 is the ip of a remote host
+# /mnt/remote  = the mount point

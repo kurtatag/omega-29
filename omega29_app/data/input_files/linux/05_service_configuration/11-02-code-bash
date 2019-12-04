@@ -1,0 +1,6 @@
+# this will be our simple site:
+tree /var/www/html
+# /var/www/html
+#  |── index.html
+#  └── test
+#     └── test.html

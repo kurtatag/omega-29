@@ -1,0 +1,4 @@
+Let's say we have a real user "bob" on our system. Now we want to create
+an alias "help" for our real user so that all the mail coming to
+help@localhost will be forwarded to bob@localhost. This is done in two
+steps.

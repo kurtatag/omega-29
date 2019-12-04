@@ -1,0 +1,5 @@
+lynx localhost
+# a request so that we have some data in our log file
+
+tail /etc/httpd/logs/access_log
+# to see changes in the log format

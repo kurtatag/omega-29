@@ -1,0 +1,7 @@
+# first we need to edit this file:
+sudo vi /etc/aliases
+# # See man 5 aliases for format
+# help: bob
+
+# then we need to run this command:
+sudo newaliases

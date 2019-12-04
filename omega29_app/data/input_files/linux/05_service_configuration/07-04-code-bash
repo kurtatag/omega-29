@@ -1,0 +1,27 @@
+apt install dovecote-core dovecot-imapd dovecot-pop3d
+# install dovecot & modules
+
+
+# change where dovecot looks for a user's mail
+vi /etc/dovecot/conf.d/10-mail.conf
+# mail_location = maildir:~/Maildir
+
+
+# allow postfix access to the authentication service provided by dovecot
+vi /etc/dovecot/conf.d/10-master.conf
+# # Postfix smtp-auth
+# unix_listener /var/spool/postfix/private/auth {
+#     mode = 0666
+# }
+# user = $default_internal_user
+
+
+# create ssl sertificates
+cd /usr/share/dovecot/
+./mkcert.sh
+
+# enable ssl
+vi /etc/dovecot/conf.d/10-ssl.conf
+# ssl = yes
+# ssl_cert = </etc/dovecot/dovecot.pem
+# ssl_key = </etc/dovecot/private/dovecot.pem

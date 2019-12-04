@@ -1,0 +1,2 @@
+We assume that postfix (a mail server) is already installed on the system.
+We also told postfix to use maildir format.

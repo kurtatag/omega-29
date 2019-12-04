@@ -1,0 +1,16 @@
+apt install apache2
+# install Apache HTTP Server
+# (the service will up and running immediately after installing)
+
+apt install lynx
+# install a text based browser "lynx"
+# (we will use it to check that our web server is running properly)
+
+
+lynx localhost
+# check the the web server is running
+
+
+vi /etc/apache2/apache2.conf
+# right at the top of the file it is explained how the configuration for
+# apache2 works

@@ -1,0 +1,23 @@
+vi /etc/httpd/conf/httpd.conf
+#  # Deny access to the entirety of your server's filesystem. You must
+#  # explicitly permit access to web content directories in other
+#  # <Directory> blocks below.
+#  #
+#  <Directory />
+#      AllowOverride none
+#      Require all denied
+#  </Directory>
+#  ...
+#
+#  ...
+#  <Directory /var/www/html/test/>   # final slash is important
+#      Order allow,deny
+#      Allow from 127.0.0.1
+#      Allow from ::1
+#  </Directory>
+
+systemctl restart httpd
+# restart the service after changing the configs
+
+curl http://localhost/test/test.html > /dev/null 2>&1
+# to make sure that the pages are still accessible locally

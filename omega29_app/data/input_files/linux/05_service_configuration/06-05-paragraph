@@ -1,0 +1,2 @@
+Without any additional configuration, our squid server accepts traffic
+from itself, but no other systems.

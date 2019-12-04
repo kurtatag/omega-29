@@ -1,0 +1,2 @@
+We are going to restrict access to pages inside test directory
+from remote browsers.

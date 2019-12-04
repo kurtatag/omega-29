@@ -1,0 +1,6 @@
+# similarly, we can deny access to our proxy for a network or ip:
+vi /etc/squid/squid.conf
+# acl localnet src 10.0.0.0/8
+# acl nokhetag src 10.9.185.155
+# ...
+# http_access allow localnet !nokhetag

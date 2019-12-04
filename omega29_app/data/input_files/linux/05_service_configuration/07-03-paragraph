@@ -1,0 +1,4 @@
+We can enable remote access to the mailbox by installing Dovecot, software
+which offers up the mailbox through the POP and IMAP protocols. End-user
+clients can then connect to the server with POP or IMAP and work with their
+mail that way.

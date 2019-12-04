@@ -1,0 +1,5 @@
+So these cashing DNS servers are basically designed to query DNS records,
+fetch all the DNS details from other servers and then keep each query that
+they request for its cash for later use when, whenever we perform the same
+request in the future, that way it just serves from the cash, basically,
+just to reduce the response time on these.

@@ -1,0 +1,35 @@
+yum install qemu-kvm libvirt libvirt-client virt-install virt-viewer
+# install packages for working with VMs
+
+cat /proc/cpuinfo | grep -E "(vmx|svm)"
+# to check whether your processor is offering virtualization features
+# (if nothing comes back, that means no, and in that case qemu will not
+# be able to use kvm for direct access to the host cpu, so qemu will have to
+# emulate the cpu itself, which will slow down things a bit)
+
+
+virt-install \
+--name=tinyalpine \
+--vcpus=1 \
+--memory=1024 \
+--cdrom=alpine-standard-3.7.0-x86.iso
+--disk size=5
+# this will launch virt-viewer (in graphical mode) so that you can proceed
+# with the installation process
+
+
+virsh list --all
+# list all virtual machines
+
+virsh edit tinyalpine
+# to edit the VM (by changing the XML file)
+
+virsh autostart tinyalpine
+# now the VM will start automatically at boot time
+
+virsh autostart --disable tinyalpine
+# to disable autostart
+
+virt-manager
+# launch a Virtual Machine Manager graphical tool which allows to manage
+# VMs much more easily

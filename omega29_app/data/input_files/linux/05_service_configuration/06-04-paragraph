@@ -1,0 +1,5 @@
+By default:
+  - squid runs on port 3128
+  - the configuration of squid is managed by /etc/squid/squid.conf
+  - squid keeps logs in /var/log/squid/
+  - squid keeps its cache of files in /var/spool/squid/

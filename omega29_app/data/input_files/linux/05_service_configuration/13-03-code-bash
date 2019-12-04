@@ -1,0 +1,18 @@
+mkdir $HOME/webstuff
+echo "<h1>Test index page</h1>" > $HOME/webstuff/index.html
+# this will be our simple website
+
+docker container run \
+-dit \
+--name la-test-web \
+-p 9090:80 \
+-v $HOME/webstuff/:/user/local/apache2/htdocs/ \
+httpd:2.4
+
+curl http://localhost:9090
+# check that our site is up and running
+
+docker container stop la-test-web
+docker container rm la-test-web
+docker image rm httpd:2.4
+# get rid of the container and the image

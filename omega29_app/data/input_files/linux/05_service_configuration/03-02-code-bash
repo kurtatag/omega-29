@@ -1,0 +1,24 @@
+yum install nfs-utils
+
+mkdir /share
+# let's create a directory we would like to share
+
+chmod -R 755 /share
+chown nfsnobody:nfsnobody /share
+# this will prevent us from having rights issues
+
+systemctl enable rpcbind
+systemctl enable nfs-server
+systemctl enable nfs-idmap
+systemctl start rpcbind
+systemctl start nfs-server
+systemctl start nfs-idmap
+# we need to enable and start these services
+
+# we need to edit the following file in order to share the data
+# 172.31.96.178 is the ip of the client that wants access to our share
+vi /etc/exports
+# /share 172.31.96.178(rw,sync,no_root_squash,no_all_squash)
+
+systemctl restart nfs-server
+# restart the server after having made changes to the config file

@@ -1,0 +1,27 @@
+yum install httpd
+# install Apache HTTP Server
+
+yum install lynx
+# install a text based browser "lynx"
+# (we will use it to check that our web server is running properly)
+
+
+systemctl enable httpd
+systemctl start httpd
+# enable and start our web server
+
+lynx localhost
+# check the the web server is running
+
+
+# Now we would like to include virtual hosts from our own directory
+
+vi /etc/httpd/conf/httpd.conf
+# add at the bottom of file the following:
+# IncludeOptional vhosts.d/*.conf
+
+mkdir /etc/httpd/vhosts.d
+# let's create the directory itself
+
+systemctl restart httpd
+# restart the service after having changed the configs

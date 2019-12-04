@@ -1,0 +1,8 @@
+# we can allow access to our proxy for a range of hosts like this:
+vi /etc/squid/squid.conf
+# acl localnet src 10.0.0.0/8
+# ...
+# http_access allow localnet
+#
+# the 1st line specifies the network (a range of hosts) we want to target
+# the 2nd line gives access to our proxy for those hosts

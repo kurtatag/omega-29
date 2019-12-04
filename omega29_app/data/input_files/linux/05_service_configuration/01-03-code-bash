@@ -1,0 +1,25 @@
+sudo yum install bind bind-utils
+
+sudo nano /etc/named.conf
+# allow-query     { localhost; any; };
+# allow-query-cache { localhost; any; };
+
+# make sure these are set up correctly
+ls -lZ /etc/named.conf
+# it should be:
+# -rw-r-----. root named system_u:object_r:named_conf_t:s0 named.conf
+# if not, we could run the following command:
+# semanage fcontext -a -t named conf t /etc/named.conf
+ls -lZ /etc/named.rfc1912.zones
+# it should be:
+# -rw-r-----. root named system_u:object_r:named_conf_t:s0 named.rfc1912.zones
+# otherwise run the same command as above on this file too
+
+
+sudo named-checkconf /etc/named.conf
+# check the conf file (no news, good news)
+
+sudo systemctl restart named
+# restart the named service (dns)
+
+sudo systemctl enable named

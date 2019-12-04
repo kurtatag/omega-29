@@ -1,0 +1,36 @@
+sudo yum install bind bind-utils
+
+sudo vi /etc/named/named.conf
+# add the following to the end of this file:
+# zone "la.local" in {
+#       type master;
+#       file "la.local.zone";
+# };
+
+# now let's create our zone file itself
+vi /var/named/la.local.zone
+# $ORIGIN la.local
+# $TTL 600
+#
+# @              IN    SOA      dns1.la.local.    mail.la.local. (
+#                1;
+#                21600;
+#                3600;
+#                604800;
+#                86400;
+# );
+#
+# webserver      IN    A        10.9.8.80
+# chadclient1    IN    A        10.9.8.25
+# chadclient2    IN    A        10.9.8.26
+# mail           IN    A        10.9.8.150
+# dns1           IN    A        10.9.8.53
+# dns2           IN    A        10.9.8.54
+#
+# www            IN    CNAME    webserver
+#
+#                IN    MX       10          mail.la.local
+#                IN    MX       20          labackup.ca.local
+#
+#                IN    MX       dns1.la.local
+#                IN    MX       dns2.la.local

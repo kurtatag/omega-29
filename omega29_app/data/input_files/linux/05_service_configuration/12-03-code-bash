@@ -1,0 +1,23 @@
+apt install mariadb-server mariadb-client
+# let's install the packages
+
+mysql_secure_installation
+# Enter current password for root (enter for none):
+# Set root password? [Y/n]  y
+# New password: ***
+# Re-enter new password: ***
+# Remove anonymous users? [Y/n]  y
+# Disallow root login remotely? [Y/n]  y
+# Remove test database and access to it? [Y/n]  y
+# Reload privilege tables now? [Y/n]  y
+
+mysql -u root -p
+# Enter password: ***
+# MariaDB [(none)]> show databases;
+# MariaDB [(none)]> create database chad;
+# MariaDB [(none)]> use chad;
+# MariaDB [(chad)]> show tables;
+# MariaDB [(chad)]> exit;
+
+systemctl start|status|stop mysql
+# the service is called "mysql" (not "mariadb")
