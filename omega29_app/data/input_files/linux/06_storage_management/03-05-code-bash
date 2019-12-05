@@ -1,0 +1,10 @@
+pvcreate /dev/sdb1
+# this command will create a Physical Volume
+# /dev/sdb1  - path to our partiton
+# This command also sets the partition type to LVM member
+
+pvdisplay
+# to make sure that we indeed have a Physical Volume /dev/sdb1
+
+pvs
+# this command also shows info about Physical Volumes but in more compact form

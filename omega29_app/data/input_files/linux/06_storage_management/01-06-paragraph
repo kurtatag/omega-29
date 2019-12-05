@@ -1,0 +1,3 @@
+A device (storage) to be used needs to be mounted.
+When a device is mounted, its filesystem becomes available somewhere in the
+host system's filesystem.

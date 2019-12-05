@@ -1,0 +1,50 @@
+grep -i config_dm_crypt /boot/config-$(uname -r)
+# to make sure that our system supports encrypted filesystems
+# the output should be:  CONFIG_DM_CRYPT=m
+
+apt install cryptsetup
+
+# to encrypt a partition
+cryptsetup -y luksFormat /dev/sdc2
+# WARNING!
+# ========
+# This will overwrite data on /dev/sdc2 irrevocably.
+# Are you sure& (Type uppercase yes):  YES
+# Enter passphrase:
+# Verify passphrase:
+
+# to decrypt the partition
+cryptsetup open /dev/sdc2 secret
+cryptsetup luksOpen /dev/sdc2 secret
+# Enter passphrase for /dev/sdc2:
+#
+# /dev/sdc2   - path to the partition
+# secret      - the name the device will be mapped to
+
+ls /dev/mapper
+# our device named 'secret' is listed here
+
+mkfs.ext4 /dev/mapper/secret
+mkfs -t ext4 /dev/mapper/secret
+# This will create an Ext4 filesystem on our encrypted partition 'secret'.
+# There is nothing special about this filesystem. It is not doing any encryption
+# itself. The encryption is happening at the partition level.
+
+mkdir /mnt/secure-drive
+# a placeholder for a filesystem
+
+mount /dev/mapper/secret /mnt/secure-drive
+# this command will mount the filesystem
+# /dev/mapper/secret      - path to the filesystem
+# /mnt/secure-drive       - path, where we want it to be available
+
+umount /mnt/secure-drive
+# to unmount the filesystem
+
+cryptsetup close secret
+cryptsetup luksClose secret
+# to close the device
+
+# To mount this encrypted partition again we will need to use 2 commands:
+# 1. Cryptsetup open with the path and the name
+# 2. Mount the filesystem

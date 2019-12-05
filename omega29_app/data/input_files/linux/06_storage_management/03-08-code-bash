@@ -1,0 +1,18 @@
+lvcreate -l 29615 -n mydata mygroup
+# There are several options for specifying the size when creating a Logical
+# Volume. One of them is this - to specify the exect amount of Extents from
+# those available in a Volume Group.
+# mydata   - the name of a Logical Volume
+# mygroup  - the name of a Volume Group
+
+lvcreate --size 600M --name mydata  mygroup
+# another way to specify the size of a Logical Volume
+# mydata   - the name of a Logical Volume
+# mygroup  - the name of a Volume Group
+
+
+ls /dev/mapper
+# LVM makes the volumes available in this folder in the format
+# <group-name>-<volume-name>
+
+# Our Logical Volume will also be abailable as /dev/mygroup/mydata

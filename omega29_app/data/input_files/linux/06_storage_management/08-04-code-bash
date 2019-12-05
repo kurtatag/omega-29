@@ -1,0 +1,39 @@
+# Let's make a disk /dev/sdb automatically mount when we need it, rather
+# than keeping it mounted all the time.
+
+vi /etc/auto.master
+# add at the end of the file the following line:
+# /misc /etc/auto.misc
+#
+# /misc           = where we expect the device to be (mountpoint), we don't
+#                   want to use /mnt because we don't want autofs to take
+#                   over our regular mount
+# /etc/auto.misc  = a path to a file where I'll provide more information
+#                   about the volume that will get mounted (a file that
+#                   already exists)
+
+vi /etc/auto.misc
+# add the following line to the file:
+# disk1   -fstype=ext4    :/dev/sdb
+#
+# disk1     = a name that will be part of a mountpoint (for example /misc/disk1)
+# /dev/sdb  = a name of the our disk (filesystem) we want to mount
+
+systemctl restart autofs
+# since we made changes to the configuration files
+
+df -h
+# let's first make sure that our device isn't mounted
+
+cd /misc/disk1
+# let's go to our disk (which should mount automatically)
+
+df -h
+# now let's make sure that our device is mounted
+
+
+# We could do the same thing for a remote mount too (CIFS/SMB/NFS).
+# For example:
+vi /etc/auto.misc
+# remote   -fstype=cifs,username=name,password=pwd    :\\server\share
+# remote   -fstype=nfs                                server:\share

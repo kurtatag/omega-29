@@ -1,0 +1,4 @@
+Now that we have the files we need on this volume, we can use the edquota
+command with the username to actually set a quota. If we use the -g option
+with edquota, we could give it a group name instead. Things are the same
+between users and groups in terms of setup.

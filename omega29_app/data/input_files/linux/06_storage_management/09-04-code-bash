@@ -1,0 +1,6 @@
+chmod 1775 mydir/
+# The sticky bit can also be set with octal permissions, it is binary 1 in
+# the first of four triplets.
+
+chmod 0775 mydir/
+# remove a sticky bit

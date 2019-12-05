@@ -1,0 +1,8 @@
+quotaon -pa
+# to check if the quota is turned on
+
+qoutaon /mnt/myvolume/
+# to enable a quota for a volume
+
+qoutaoff /mnt/myvolume/
+# to turn off a quota for a volume

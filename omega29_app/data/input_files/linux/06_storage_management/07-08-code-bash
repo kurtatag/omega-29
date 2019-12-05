@@ -1,0 +1,12 @@
+# getting rid of a RAID device:
+# step 1:
+umount /mnt/myraid  # unmount the filesystem
+# step 2:
+mdadm --stop /dev/md0  # tell mdadm to stop the array
+# step 3:
+mdadm --remove /dev/md0  # tell mdadm to remove the array
+# step 4:
+mdadm --zero-superblock /dev/sdb /dev/sdc /dev/sdd
+# The disk are still marked as members of a RAID set. So, to fully restore
+# them to unused partitions, we'll tell MDADM to zero the super block,
+# where the information about what kind of device they are is stored.

@@ -1,0 +1,3 @@
+Physical Volumes are divided into Physical Extents
+Logical Volumes are divided into Logical Extents
+It's LVM job to map those Logical Extents to Physical Extents

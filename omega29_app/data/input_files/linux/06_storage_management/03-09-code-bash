@@ -1,0 +1,13 @@
+mkfs.ext4 /dev/mygroup/mydata
+mkfs -t ext4 /dev/mygroup/mydata  # another notation
+mkfs.ext4 /dev/mapper/mygroup-mydata
+# we can create a filesystem on our Logical Volume using either device notation
+# or mapper notation
+
+mkdir /mnt/myvolume
+# a placeholder for a filesystem
+
+mount /dev/mygroup/mydata /mnt/myvolume
+# this command will mount the filesystem
+# /dev/mygroup/mydata      - path to the filesystem
+# /mnt/myvolume            - path, where we want it to be available

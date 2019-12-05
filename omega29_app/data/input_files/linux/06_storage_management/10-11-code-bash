@@ -1,0 +1,8 @@
+quota -s bob
+# to see the quota info for a user
+# -s  = more human friendly (otherwise the sizes will be in blocks)
+
+repquota -as
+# reporting from the administrator side
+# -a  = show me information about all file systems with quotas
+# -s  = human friendly

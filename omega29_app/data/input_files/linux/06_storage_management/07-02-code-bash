@@ -1,0 +1,2 @@
+apt install mdadm
+# this tool is used for creating RAID devices

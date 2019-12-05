@@ -1,0 +1,8 @@
+There's a few steps to getting a quota set up:
+  1) We need to install the quota software if it's not installed.
+  2) We need to mount our file system with support for quotas. They're
+     disabled by default, so we need to edit our fstab file or autofs map
+     to request support for quotas.
+  3) We need to create the tables and files that the quota system needs in
+     order to work.
+  4) We need to specify what our quotas will be.

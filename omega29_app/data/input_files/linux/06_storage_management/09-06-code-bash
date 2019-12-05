@@ -1,0 +1,13 @@
+chmod g+s mydir/
+# The setgid can be used on directories to make sure that all files inside
+# the directory are owned by the group owner of the directory. The setgid
+# bit is displayed at the same location as the x permission for group owner.
+# The setgid bit is represented by an s (meaning x is also there) or an S
+# (when there is no x for the group owner).
+
+ls -ld mydir/
+# drwxrws---  2 root cloud_user 4096 Sep 18 20:37 mydir/   (x is not there)
+# drwxrwS---  2 root cloud_user 4096 Sep 18 20:37 mydir/   (x is there)
+
+chmod -s mydir/
+# remove a setgid bit

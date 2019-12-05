@@ -1,0 +1,2 @@
+find / -type d -perm -2000 2> /dev/null
+# you can use the find command to find all setgid directories

@@ -1,0 +1,22 @@
+# Reconfigure swap space
+
+
+cat /proc/swaps
+# to see where we currently have swap space and how it's being used
+
+swapoff /dev/sda5
+# to take the swap offline
+# this aciton will also move data from the swap space back into RAM
+
+dd if=/dev/zero of=/var/swapfile bs=1G count=8
+# We will create a file that will hold pages swapped from memory by building
+# a file full of zeros in the size that we want it to use, 8 GB.
+
+chmod 600 /var/swapfile
+# only root can read and write to this file
+
+mkswap /var/swapfile
+# this will turn our file into a usable swap file
+
+swapon /var/swapfile
+# to take the swap online

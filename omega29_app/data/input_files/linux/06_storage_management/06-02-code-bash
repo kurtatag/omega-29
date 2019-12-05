@@ -1,0 +1,14 @@
+free
+# to see the size of the current swap
+
+swapoff -a
+# disable swap on all devices
+# -a  = all devices marked as "swap" in /etc/fstab
+
+swapon -a
+# enable swap on all devices
+
+
+vi /etc/fstab
+# swap is defined at boot time in this file in a line like this:
+# /root/swap     swap    swap    sw      0 0

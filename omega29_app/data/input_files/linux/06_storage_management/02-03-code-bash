@@ -1,0 +1,13 @@
+# to create a partition on disk /dev/xvdf
+fdisk /dev/xvdf
+# Command (m for help): m    - help
+# Command (m for help): p    - (print) show all current partitions on the disk
+# Command (m for help): g    - create a new empty GPT partition table
+# Command (m for help): n    -
+# Partition number (1-128, default 1):            - use default
+# First sector (2048-2097118, default 2048):      - use default
+# Last sector, +sectors or +size{K,M,G,T,P} (2048-2097118, default 2048): +750M     - size = 750Mb
+# Created partition 1        - the partition 1 is created
+# Command (m for help): p    - print the partion table again to see the new partition
+# Command (m for help): w    - write table to disk and exit
+# Command (m for help): q    - quit

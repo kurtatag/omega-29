@@ -1,0 +1,3 @@
+chmod 3700 mydir/
+# to set up both a sticky bit and a setgid bit
+# drwx--S--T 2 root cloud_user 4096 Sep 18 20:37 mydir/

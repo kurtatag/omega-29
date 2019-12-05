@@ -1,0 +1,5 @@
+mdadm --create --verbose /dev/md0 --level=0 --raid-devices=2 /dev/sdb /dev/sdc
+# this command will create RAID device /dev/md0 from the specified 2 disks
+
+mdadm --detail /dev/md0
+# get info about a RAID device

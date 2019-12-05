@@ -1,0 +1,13 @@
+chmod +t mydir/
+# You can set the sticky bit on a directory to prevent users from removing
+# files in that directory that they do not own as a user owner. The sticky
+# bit is displayed at the same location as the x permission for others.
+# The sticky bit is represented by a t (meaning x is also there) or a T (when
+# there is no x for others).
+
+ls -ld mydir/
+# drwxr-xr-T 2 root cloud_user 4096 Sep 18 20:03 mydir/  (x is not there)
+# drwxr-xr-t 2 root cloud_user 4096 Sep 18 20:03 mydir/  (x is there)
+
+chmod -t mydir/
+# remove a sticky bit

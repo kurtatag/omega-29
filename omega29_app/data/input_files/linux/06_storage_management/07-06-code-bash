@@ -1,0 +1,8 @@
+mkfs -t ext4 /dev/md0
+# create a filesystem on our RAID device
+
+mkdir /mnt/myraid
+# a placeholder for a filesystem
+
+mount /dev/md0 /mnt/myraid
+# mount the filesystem

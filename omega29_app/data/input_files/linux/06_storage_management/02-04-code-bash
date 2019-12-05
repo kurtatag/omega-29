@@ -1,0 +1,5 @@
+# to delete a partition on disk /dev/xvdf
+fdisk /dev/xvdf
+# Command (m for help): d                 - delete a partition
+# Partition number (1,2, default 2): 2    - choose partition 2
+# Command (m for help): w    - write table to disk and exit

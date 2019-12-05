@@ -1,0 +1,11 @@
+Logical Volume Management (LVM):
+    - is an additional layer of management on top of standard partitions
+    - while it uses standard partitions, usually on a GPT disk, LVM thinks
+      about the storage as volumes and groups
+    - it gives us the ability to span a filesystem across multiple disks
+    - LVM first divides space into PVs (or physical volumes), which are
+      standard partitions, but are treated a little differently
+    - these PVs become members of a VG (or volume group), an organizational
+      unit that keeps track of the underlying volumes
+    - on top of volume groups we have LVs (or logical volume), which contain
+      the filesystems that we use

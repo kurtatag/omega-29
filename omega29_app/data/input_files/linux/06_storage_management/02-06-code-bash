@@ -1,0 +1,7 @@
+parted /dev/xvdf
+# (parted) help                 - to see a list of commands
+# (parted) print                - to take a look at the partition table
+# (parted) resizepart           - to resize a partition
+# Partition number? 1           - we choose partition 1
+# End?  [10.0GB] 15000          - size = 15GB (the default untis are in MB)
+# (parted) quit                 - quit

@@ -1,0 +1,8 @@
+Partition Management Types:
+  - MBR/msdos (Maser boot record):
+      - limited to four "primary" partitions
+      - one of those "primary" partitions can be replaced with "extended"
+        partition, which can contain any number of logical partitions
+  - GPT (GUID partition table):
+      - GUID stands for globaly unique identifier
+      - over 100 partitions

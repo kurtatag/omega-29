@@ -1,0 +1,14 @@
+pvcreate /dev/sdc1
+# to create another Physical Volume
+# /dev/sdc1  - path to our partition
+
+vgextend mygroup /dev/sdc1
+# to extend our Volume Group mygroup with a new Physical Volume /dev/sdc1
+
+lvextend -l +29615 /dev/mygroup/mydata
+# this command will extend our Logical Volume /dev/mygroup/mydata by 29615
+# Logical Extents available from our Volume Group mygroup
+
+resize2fs /dev/mygroup/mydata
+# this command will resize the filesystem to take advantage of that new space
+# on our Logical Volume /dev/mygroup/mydata

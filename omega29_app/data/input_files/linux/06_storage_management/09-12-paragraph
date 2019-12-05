@@ -1,0 +1,2 @@
+The setgid (set group id) is a bit that allows the user to exec a program
+with the permissions of the group owner.

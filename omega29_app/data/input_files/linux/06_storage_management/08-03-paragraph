@@ -1,0 +1,5 @@
+In order to use autofs, we need to create a map file that tells it which
+mount to keep an eye on. The master map file, located at /etc/auto.master,
+holds a listing of entries that effectively correspond to directories for
+mount points and configuration files for them. These entries give us a path
+that we can use to mount various volumes as they are needed.

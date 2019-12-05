@@ -1,0 +1,8 @@
+# If we want to have a partition mounting with quota support
+# automatically, we could do that in /etc/fstab like so:
+vi /etc/fstab
+# UUID=0f790447...   /mnt/myvolume   ext4   defaults,usrquota,grpquota   0 0
+
+# We can also mount a partition temporarily with options that we need:
+umount /nmt/myvolume  # let's first unmount our partition
+mount -o quota,grpquota /dev/sdb /mnt/myvolume  # -o  = options

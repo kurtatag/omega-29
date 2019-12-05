@@ -1,0 +1,11 @@
+quotaed bob
+# Disk quotas for user bob (uid 1000):
+#   Filesystem    blocks    soft    hard    inodes    soft    hard
+#   /dev/sdb        0        1G      2G       0        0        0
+#
+# blocks  = how many blocks the user is taking up already on the file system
+# soft    = a number where the user will get a warning, but they can still
+#           continue to create files up until the hard limit
+# hard    = where the system will prevent the user from consuming any more space
+# (soft and hard limits can be expressed in blocks or bytes, kilobytes etc)
+# (we can set limits in terms of inodes as well)

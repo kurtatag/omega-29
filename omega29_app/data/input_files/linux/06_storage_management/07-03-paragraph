@@ -1,0 +1,6 @@
+RAID Levels:
+RAID 0      = One volume spreads across many disks
+RAID 1      = One volume mirrored on 2 or more disks
+RAID 2,3,4  = Various arrangement (not widely used)
+RAID 5      = One volume with distributed parity on 3+ disks
+RAID 6      = One volume with distributed parity on 4+ disks

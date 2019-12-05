@@ -1,0 +1,8 @@
+df -h
+# to see all the disks on the system
+
+mount
+# info about all of the filesystems that are mounted
+
+tune2fs -l /dev/sdb
+# to see the filesystem features

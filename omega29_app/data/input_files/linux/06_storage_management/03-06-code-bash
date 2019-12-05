@@ -1,0 +1,6 @@
+vgcreate mygroup /dev/sdb1
+# this will create a Volume Group named 'mygroup'
+# a Physical Volume /dev/sdb1 will be part of this group
+
+vgdisplay
+# to find out more about Volume Groups

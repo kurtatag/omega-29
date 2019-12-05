@@ -1,0 +1,10 @@
+/dev
+    locally connected devices are represented in this directory
+
+/dev/sda, /dev/sdb
+    s = serial, d = disk   a,b = represent disks in order
+    (these represent the whole disks)
+
+/dev/sda1, /dev/sda2, /dev/sda3
+    1,2,3 = partitions on disk 'a'
+    (these represent partitions on a disk)

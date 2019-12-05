@@ -1,0 +1,3 @@
+chmod 2770 mydir/
+# The setgid bit can also be set with octal permissions, it is binary 2 in
+# the first of four triplets.

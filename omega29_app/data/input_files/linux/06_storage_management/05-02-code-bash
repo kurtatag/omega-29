@@ -1,0 +1,21 @@
+cat /etc/fstab
+# filesystems can mount at boot time due to this file
+# (fstab = filesystem table)
+
+man fstab
+# to understand what fields mean on each line in /etc/fstab
+# 1st field describes the block device (filesystem), UUID is prefered here
+# 2nd field describes where you want to mount the filesystem
+# 3rd field describes the filesystem type we're going to use
+# 4th field describes the mount options associated with the filesystem
+# 5th field desribes whether the filesystem needs to be dumped
+# 6th field describes the order in which filesystem checks are done at reboot
+#     time (root filesystem should be 1, others - 2)
+
+blkid
+# to get the UUID for disks
+
+vi /etc/fstab
+# UUID="0f790447-ebef-4ca0-b229-d0aa1985d57f"  /mnt/myfs  defaults  ext4  0  2
+# adding the above line to /etc/fstab is all it takes to mount a filesystem
+# at boot time

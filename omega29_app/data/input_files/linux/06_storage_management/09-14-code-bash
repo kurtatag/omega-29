@@ -1,0 +1,6 @@
+chmod g+s myfile
+chmod 2777 myfile
+# to add a setgid bit
+
+chmod g-s myfile
+# to remove a setgid bit

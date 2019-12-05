@@ -1,0 +1,2 @@
+The setuid (set user id) is a permission bit, that allows the users to
+exec a program with the permissions of its owner.

@@ -1,0 +1,2 @@
+Linux ignores the setuid bit on all interpreted executables (i.e.
+executables starting with a #! line).

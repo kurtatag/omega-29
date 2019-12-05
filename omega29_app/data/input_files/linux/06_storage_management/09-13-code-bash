@@ -1,0 +1,6 @@
+chmod u+s myfile
+chmod 4777 myfile
+# to add a setuid bit
+
+chmod u-s myfile
+# to remove a setuid bit

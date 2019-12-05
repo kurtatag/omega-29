@@ -1,0 +1,13 @@
+mkfs -t ext4 /dev/sdb
+# create an ext4 filesystem on /dev/sdb disk
+
+mkdir /mnt/myfs
+# create a mountpoint (a folder which is a placeholder for a filesystem)
+
+mount /dev/sdb /mnt/myfs
+# this command will mount the filesystem
+# /dev/sdb      - path to the filesystem
+# /mnt/myfs     - path, where we want it to be available
+
+umount /mnt/myfs
+# to unmount the filesystem

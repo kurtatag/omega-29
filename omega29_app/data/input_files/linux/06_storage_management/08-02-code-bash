@@ -1,0 +1,7 @@
+apt install autofs
+# Using the autofs package, we can tell the system to mount file systems
+# on demand, rather than needing them to be mounted at boot time and having
+# them always online.
+
+systemctl status autofs
+# when autofs package is installed, it starts up a service called autofs

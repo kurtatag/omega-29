@@ -1,0 +1,5 @@
+mdadm --remove /dev/md0 /dev/sdb
+# to tell adadm to remove a disk from the array
+
+mdadm --add /dev/md0 /dev/sdd
+# to tell adadm to add a new disk to the array

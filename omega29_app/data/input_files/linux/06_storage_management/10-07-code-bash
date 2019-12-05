@@ -1,0 +1,2 @@
+quotacheck -c /mnt/myvolume/
+# this creates a file "quota.user" right at the root of the volume

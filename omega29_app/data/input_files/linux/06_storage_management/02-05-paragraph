@@ -1,0 +1,3 @@
+We can't expand the existing partition to take up the entire disk using fdisk.
+For that we need to use another tool called gparted (or its command line
+version called parted).
