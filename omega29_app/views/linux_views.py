@@ -65,3 +65,8 @@ def ssh_learning_ssh():
 @bp.route('/bash/')
 def bash():
     return get_list(node_name='Home/Linux/Bash')
+
+
+@bp.route('/bash/learning_bash_scripting')
+def bash_learning_bash_scripting():
+    return get_page(node_name='Home/Linux/Bash/Learning Bash Scripting')

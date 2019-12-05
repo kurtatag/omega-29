@@ -68,5 +68,10 @@
         "name": "Home/Linux/SSH/Learning SSH",
         "data_dir": "data/input_files/linux/ssh/learning_ssh",
         "endpoint": "linux.ssh_learning_ssh"
+    },
+    {
+        "name": "Home/Linux/Bash/Learning Bash Scripting",
+        "data_dir": "data/input_files/linux/bash/learning_bash_scripting",
+        "endpoint": "linux.bash_learning_bash_scripting"
     }
 ]
