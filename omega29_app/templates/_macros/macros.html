@@ -45,7 +45,7 @@
   {% elif type == 'paragraph' %}
     <div class="card yellow-left-border border-top-0 border-bottom-0 border-right-0 mb-4">
       <div class="card-body paragraph">
-        <pre class="">{{ content }}</pre>
+        <pre class="">{{ content|safe }}</pre>
       </div>
     </div>
   {% endif %}
