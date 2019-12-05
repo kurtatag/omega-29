@@ -63,5 +63,10 @@
         "name": "Home/Linux/LFCS/06 Storage Management",
         "data_dir": "data/input_files/linux/lfcs/06_storage_management",
         "endpoint": "linux.lfcs_06_storage_management"
+    },
+    {
+        "name": "Home/Linux/SSH/Learning SSH",
+        "data_dir": "data/input_files/linux/ssh/learning_ssh",
+        "endpoint": "linux.ssh_learning_ssh"
     }
 ]
