@@ -40,6 +40,10 @@
         "endpoint": "linux.ssh"
     },
     {
+        "name": "Home/Linux/Bash",
+        "endpoint": "linux.bash"
+    },
+    {
         "name": "Home/Git",
         "endpoint": "git.home"
     },

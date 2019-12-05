@@ -53,3 +53,10 @@ def lfcs_06_storage_management():
 @bp.route('/ssh/')
 def ssh():
     return get_list(node_name='Home/Linux/SSH')
+
+
+### bash ######################################################################
+
+@bp.route('/bash/')
+def bash():
+    return get_list(node_name='Home/Linux/Bash')
