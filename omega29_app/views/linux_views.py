@@ -46,3 +46,10 @@ def lfcs_05_service_configuration():
 @bp.route('/lfcs/06_storage_management')
 def lfcs_06_storage_management():
     return get_page(node_name='Home/Linux/LFCS/06 Storage Management')
+
+
+### ssh #######################################################################
+
+@bp.route('/ssh/')
+def ssh():
+    return get_list(node_name='Home/Linux/SSH')
