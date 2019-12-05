@@ -1,0 +1,3 @@
+By default:
+  id_rsa      = a private key
+  id_rsa.pub  = a public key

@@ -1,0 +1,5 @@
+nano ~/.ssh/config
+# Host myhost
+#    User bob
+#    HostName ecsa00400926.epam.com
+#    IdentityFile ~/.ssh/id_rsa

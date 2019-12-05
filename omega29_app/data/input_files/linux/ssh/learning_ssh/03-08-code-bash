@@ -1,0 +1,3 @@
+ssh-copy-id -i ~/.ssh/id_rsa username@remote_host
+# add the key by appending them to the remote user's ~/.ssh/authorized_keys
+# (creating the file, and directory, if necessary)

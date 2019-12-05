@@ -1,0 +1,4 @@
+ssh username@remote_host pwd
+ssh username@remote_host "ls -la"
+# if the command is specified it's executed on the remote host
+# and the connection is closed

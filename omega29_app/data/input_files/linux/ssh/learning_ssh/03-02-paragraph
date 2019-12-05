@@ -1,0 +1,3 @@
+Key-based access requires a cryptographic key pair made up of a public key
+and a private key. The server will have the public key and you'll have the
+private key.

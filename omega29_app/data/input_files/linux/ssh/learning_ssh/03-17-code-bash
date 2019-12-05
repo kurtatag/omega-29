@@ -1,0 +1,3 @@
+ssh myhost pwd
+ssh myhost "ls -la"
+# execute a single command on a remote host through a shortcut

@@ -1,0 +1,5 @@
+ssh -L 9999:host3:5432 host2
+# the local port 9999 will be mapped to the port 5432 on host3
+
+psql -h localhost -p 9999 -U postgres
+# now we can connect to postgres on host3

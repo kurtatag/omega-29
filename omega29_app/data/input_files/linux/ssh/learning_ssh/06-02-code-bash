@@ -1,0 +1,12 @@
+sudo vim /etc/ssh/sshd_config
+# Port 22                       # we can specify ssh port here
+# PermitRootLogin no            # root won't be able to log in
+#                                 (a good security practice)
+# PasswordAuthentication no     # users will need to use a key to log in
+# Banner /etc/ssh/banner.epam   # path to a text file (to display some text
+#                                 when a user logs in)
+
+
+sudo systemctl restart sshd
+# restart ssh daemon in order for changes in /etc/ssh/sshd_config to
+# take effect

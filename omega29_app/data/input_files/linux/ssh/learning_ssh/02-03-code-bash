@@ -1,0 +1,2 @@
+less ~/.ssh/known_hosts
+# view known host keys

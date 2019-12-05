@@ -1,0 +1,4 @@
+# on a client machine:
+
+scp ~/.ssh/id_rsa.pub username@remote_host:
+# copy a public key to a remote server

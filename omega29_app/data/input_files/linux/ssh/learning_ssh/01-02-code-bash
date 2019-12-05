@@ -1,0 +1,9 @@
+ssh remote_host
+# if you don't specify a username SSH will assume you want to use
+# the same username that you're using on your local computer
+
+ssh remote_host -l username
+# specify a login with -l option
+
+ssh username@remote_host
+# another way to specify a login

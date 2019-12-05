@@ -1,0 +1,5 @@
+sudo apt install openssh-server
+# install an ssh server
+
+sudo systemctl start sshd
+# start ssh daemon

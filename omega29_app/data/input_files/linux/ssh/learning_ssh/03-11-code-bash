@@ -1,0 +1,10 @@
+# on a server machine:
+
+# step 1
+mkdir ~/.ssh
+# if this is the first time setting up a key on your server, you'll need
+# to create the .ssh folder in your home folder
+
+# step 2
+cat ~/id_rsa.pub >> ~/.ssh/authorized_keys
+# concatenate the key into the authorized_keys file

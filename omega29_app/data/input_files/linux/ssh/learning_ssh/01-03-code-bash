@@ -1,0 +1,2 @@
+ssh -p 2222 username@remote_host
+# specify a port (if your ssh server runs on a port other than 22)

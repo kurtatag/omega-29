@@ -1,0 +1,5 @@
+Another convenient feature of SSH is that it can be used to forward ports
+from a local machine to a remote machine.
+
+What that means is that SSH will take what's sent to a port on a local
+machine and send it through an SSH connection to a port on a remote server.

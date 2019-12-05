@@ -1,0 +1,7 @@
+ssh \
+-N \
+-L local_port:target_host:target_port \
+remote_login@remote_host
+# only set up port forwarding from our local machine to target_host
+# (do not open an ssh session to remote_host)
+# when you're done just use Ctrl + C

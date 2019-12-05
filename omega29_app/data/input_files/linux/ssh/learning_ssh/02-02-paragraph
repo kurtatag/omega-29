@@ -1,0 +1,7 @@
+If this is your first time connecting to the server you'll be asked to
+accept the server's host key. When you accept it, the key will be stored
+along with the server's name in a file "known_hosts" in the .ssh folder.
+SSH uses this file to check the host key when you connect to a server and
+if the server key changes for any reason you'll be notified. So if the
+server key changes just open up the known_hosts file and delete the old key.
+Then, when you reconnect you'll be prompted to accept the new key.

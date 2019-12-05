@@ -1,0 +1,12 @@
+ssh \
+-L local_port:target_host:target_port \
+remote_login@remote_host
+# remote_host  = we currently have access to it via ssh
+# target_host  = we want access to it (but usually we don't)
+#
+# We specify target_host from the perspective of remote_host.
+#
+# So, this command will do the following:
+#   1. open an ssh session to remote_host
+#   2. set up port forwarding from our local machine to target_host
+#   3. if we exit from an ssh session port forwarding will also stop

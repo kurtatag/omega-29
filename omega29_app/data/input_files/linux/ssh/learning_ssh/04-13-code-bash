@@ -1,0 +1,8 @@
+ssh -L 9999:host3:5432 host2 -N
+# do not open ssh session, do just port forwarding
+# (this will capture the command line)
+
+ssh -L 9999:host3:5432 host2 -N -f
+# the same as in the previous command but this time the process
+# will go to the background
+ps aux | grep -E "(PID|ssh)"  # to find and then kill the process

@@ -1,0 +1,6 @@
+ssh-keygen -t rsa
+# generante a cryptographic key pair
+# -t  = specifies the type of key to create (“rsa” for protocol version 2)
+# the command will start up an interactive series of prompts asking you:
+#  - a filename where you want to store the key (default = id_rsa)
+#  - a pass phrase to unlock the key (not to log into the remote server itself)

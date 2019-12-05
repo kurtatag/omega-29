@@ -1,0 +1,5 @@
+ssh -i ~/.ssh/id_rsa username@remote_host
+# -i  = selects a file from which the identity (private key) for
+#       public key authentication is read
+# if you set a password on the key, you might be prompted to enter
+# the key
