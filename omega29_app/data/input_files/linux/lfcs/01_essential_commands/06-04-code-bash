@@ -13,7 +13,7 @@ gzip databkup.tar
 # compress files
 # databkup.tar will be replaced with databkup.tar.gz
 
-tar -cvfz databkup.tar.gz /data
+tar -zcvf databkup.tar.gz /data
 # save many files into a single archive and compress the archive with gzip
 
 
