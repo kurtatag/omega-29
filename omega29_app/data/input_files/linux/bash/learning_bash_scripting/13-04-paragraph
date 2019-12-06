@@ -1,0 +1,2 @@
+If you're using Bash 4 and above, you can also make associative arrays.
+That is, you can specify a key and a value.

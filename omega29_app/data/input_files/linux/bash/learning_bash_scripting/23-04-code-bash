@@ -1,0 +1,18 @@
+#!/bin/bash
+# This is a basic bash script.
+
+# In the opt string if we add flags without colons after them (such as a and b
+# in our example below), that means that we just want to know whether or not
+# that flag was used.
+
+while getopts ab option; do
+    case $option in
+        a) echo "Got the A flag";;
+        b) echo "Got the B flag";;
+    esac
+done
+
+
+# ./my.sh -a
+# ./my.sh -b
+# ./my.sh -a -b

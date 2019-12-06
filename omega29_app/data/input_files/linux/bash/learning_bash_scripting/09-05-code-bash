@@ -1,0 +1,20 @@
+fruit="apple banana banana cherry"
+echo ${fruit/banana/durian}
+# in variable fruit replace the first occurence of banana with durian
+
+fruit="apple banana banana cherry"
+echo ${fruit//banana/durian}
+# in variable fruit replace all occurences of banana with durian
+# (notice 2 slashes)
+
+fruit="apple banana banana cherry"
+echo ${fruit/#apple/durian}
+# in variable fruit replace apple with durian only if it's at the beginning
+
+fruit="apple banana banana cherry"
+echo ${fruit/%cherry/durian}
+# in variable fruit replace cherry with durian only if it's at the end
+
+fruit="apple banana banana cherry"
+echo ${fruit/c*/durian}
+# you can use matching too

@@ -1,0 +1,3 @@
+In a script, you might want to keep track of a collection of things.
+For that, you can use an array. In Bash, you declare that a variable is an
+array by enclosing it in parentheses.

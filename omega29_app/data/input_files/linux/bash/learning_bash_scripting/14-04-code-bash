@@ -1,0 +1,6 @@
+# The following syntax reads the file 'myfile' into the
+# variable 'line' line by line.
+while read line
+do
+    echo $line
+done < myfile

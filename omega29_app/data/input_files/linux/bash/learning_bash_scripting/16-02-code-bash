@@ -1,0 +1,6 @@
+a=5
+[[ $a -gt 4 ]];
+echo $?
+test $a -gt 4;
+echo $?
+# these are equivalent ways to test a condition

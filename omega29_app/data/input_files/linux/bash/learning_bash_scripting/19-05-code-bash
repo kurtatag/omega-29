@@ -1,0 +1,16 @@
+# arrays
+arr=("apple" "banana" "cherry")
+for i in ${arr[@]}
+do
+    echo $i
+done
+
+
+# associative arrays
+declare -A arr
+arr["name"]="Scott"
+arr["id"]="1234"
+for i in "${!arr[@]}"   # we use ! to access the keys in the associative array
+do
+    echo "$i: ${arr[$i]}"
+done

@@ -1,0 +1,14 @@
+#!/bin/bash
+# This is a basic bash script.
+
+while getopts u:p: option; do # : means that we expect a value along with a flag
+    case $option in
+        u) user=$OPTARG;;
+        p) pass=$OPTARG;;
+    esac
+done
+
+echo "User: $user / Pass: $pass"
+
+
+# ./my.sh -u Scott -p secret

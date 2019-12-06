@@ -1,0 +1,12 @@
+# Bash support the following comparison operators for STRINGS:
+
+a="cat"
+b="dog"
+
+[[ $a < $b ]]
+[[ $a > $b ]]
+[[ $a <= $b ]]
+[[ $a >= $b ]]
+[[ $a == $b ]]
+[[ $a = $b ]]       # you can use == or = to test for equality
+[[ $a != $b ]]

@@ -1,0 +1,4 @@
+To tell the interpreter that we're going to do math, we need to wrap an
+expression up in double parenthesis. If we're assigning the result of an
+arithmetic expression to a variable, the parens need to start with a dollar
+sign.

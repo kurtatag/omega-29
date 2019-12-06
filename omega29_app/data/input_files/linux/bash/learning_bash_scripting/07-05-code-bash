@@ -1,0 +1,15 @@
+# We can also use the increment and decrement operators:
+
+n=2
+
+(( n++ ))
+echo $n
+
+(( n-- ))
+echo $n
+
+(( n+=1 ))
+echo $n
+
+(( n-=1 ))
+echo $n

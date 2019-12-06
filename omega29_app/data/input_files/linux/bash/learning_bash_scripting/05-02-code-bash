@@ -1,0 +1,13 @@
+a=Hello
+# no spaces, otherwise an error
+
+b="Good Morning"
+# we have to use quotes because of a space
+
+c=16
+# of course, a variable can be a number
+
+echo $a
+echo $b
+echo $c
+# we use $ to use a variable

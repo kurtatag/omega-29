@@ -1,0 +1,11 @@
+# There's also two operators for testing whether a string is
+# null or not null:
+
+a=""
+b="cat"
+
+[[ -z $a ]]    # Is null?
+echo $?
+
+[[ -n $b ]]    # Is not null?
+echo $?

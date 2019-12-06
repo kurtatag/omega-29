@@ -1,0 +1,8 @@
+help
+# display information about builtin commands
+
+help echo
+# display information about a particular builtin command
+
+help -d echo
+# output a short description for a command

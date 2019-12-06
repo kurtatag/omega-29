@@ -1,0 +1,5 @@
+echo -n "I "
+echo -n "like "
+echo -n "Linux"
+echo ""
+# -n  = do not output the trailing newline

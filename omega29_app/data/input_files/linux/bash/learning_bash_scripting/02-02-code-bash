@@ -1,0 +1,4 @@
+echo I like Linux
+echo "I like Linux"
+echo 'I like Linux'
+# the same output

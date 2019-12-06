@@ -1,0 +1,11 @@
+# Bash supports the following arithmetic operations:
+
+a=5
+b=2
+
+echo $(( a ** b ))    # exponentiation
+echo $(( a * b ))     # multiplication
+echo $(( a / b ))     # division (works only with integers)
+echo $(( a % b ))     # modulo
+echo $(( a + b ))     # addition
+echo $(( a - b ))     # subtraction

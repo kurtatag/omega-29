@@ -1,0 +1,17 @@
+#!/bin/bash
+# This is a basic bash script.
+
+# Adding a colon on the beginning tells bash that we want to know about flags
+# that were used at the command line that we haven't specified. And in the case
+# statement we will use question mark to capture that.
+
+while getopts :ab option; do
+    case $option in
+        a) echo "Got the A flag";;
+        b) echo "Got the B flag";;
+        ?) echo "I don't know what $OPTARG is!";;
+    esac
+done
+
+
+# ./my.sh -z

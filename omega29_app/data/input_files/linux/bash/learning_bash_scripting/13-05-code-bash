@@ -1,0 +1,11 @@
+declare -A myarray
+# to declare an associative array
+
+myarray[color]=blue
+# to add a key-value pair to an array
+
+myarray["office building"]="HQ West"
+# if your key or value has a space in it, you will need to use quotes
+
+echo ${myarray["office building"]} is ${myarray[color]}
+# you can access array values by using the key

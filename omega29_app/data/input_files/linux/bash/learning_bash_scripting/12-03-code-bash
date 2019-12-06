@@ -1,0 +1,5 @@
+printf "Name:\t%s\nID:\t%04d\n" "Scott" "12"
+# \t    - tab
+# \n    - new line
+# %s    - placeholder for "Scott"
+# %04d  - placeholder for "12"   (pad this field with zeroes to four places)

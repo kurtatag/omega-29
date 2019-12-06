@@ -1,0 +1,13 @@
+echo $1   # first argument
+echo $2   # second argument
+
+
+# for arbitrary number of arguments:
+for i in $@
+do
+    echo $i
+done
+
+
+echo "There were $# arguments."
+# $# is a variable that holds the number of arguments passed to a script

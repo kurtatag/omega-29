@@ -1,0 +1,14 @@
+a="hello"
+b=${a:2}     # get a substring of "hello" starting at the third character
+echo $b
+
+a="hello"
+b=${a:2:2}
+# a substring starting a character three and asking for two characters after
+# that
+echo $b
+
+a="hello"
+b=${a: -2}
+# to get two characters at the end (we need to put space before minus)
+echo $b

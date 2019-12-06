@@ -1,0 +1,9 @@
+  Code      Style
+  ----      ------
+   0        Reset / No Style
+   1        Bold or increased intensity
+   2        Low Intensity
+   4        Underline
+   5        Blinking
+   7        Swap foreground and background colors
+   8        Invisible

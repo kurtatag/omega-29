@@ -1,0 +1,13 @@
+#!/bin/bash
+# this is a basic bash script
+
+user=$(whoami)
+today=$(date +"%d-%m-%Y")
+time=$(date +"%H:%M:%S")
+
+printf -v d "Current User:\t%s\nDate:\t\t%s @ %s\n" $user $today $time
+# -v d   (to assign the output to a variable d)
+# if we use $(...) instead, it will strip out the new lines
+
+echo "$d"
+# we use quotes to preserve new lines

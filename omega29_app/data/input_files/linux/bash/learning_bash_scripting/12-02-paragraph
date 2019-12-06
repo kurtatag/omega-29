@@ -1,0 +1,3 @@
+Another handy tool is printf, a built-in that comes with Bash, which lets you
+print out data with a particular format. While you can use echo to lay out
+text manually, printf gives you a lot more options.

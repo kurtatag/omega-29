@@ -1,0 +1,10 @@
+  Style             Command
+  ------            -------
+  Foreground        tput setaf [0-7]
+  Background        tput setab [0-7]
+  No Style          tput  sgv0
+  Bold              tput bold
+  Low Intensity     tput dim
+  Underline         tput smul
+  Blinking          tput blink
+  Reverse           tput rev

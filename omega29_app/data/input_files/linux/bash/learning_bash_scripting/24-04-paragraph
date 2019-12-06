@@ -1,0 +1,2 @@
+We get a very nice numbered list of words and a prompt to enter a number.
+When we pick a number, we get back the string associated with it.

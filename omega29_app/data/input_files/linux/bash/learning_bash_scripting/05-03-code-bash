@@ -1,0 +1,6 @@
+declare -i d=123
+# declare variables and give them attributes
+# -i marks the variable as an integer
+
+declare -r e=456
+# -r marks the varible as read-only

@@ -1,0 +1,4 @@
+We can also use an if statement with a regular expression to test if a string
+matches what you are looking for. For that, we'll use the extended test
+notation, with the double brackets. We use the equals tilde operator here to
+indicate a regular expression.

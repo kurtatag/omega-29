@@ -1,0 +1,4 @@
+function greet {
+    echo "Hi, $1!"
+}
+greet Scott

@@ -1,0 +1,15 @@
+#!/bin/bash
+# This is a basic bash script.
+
+echo "What's your name?"
+read name
+
+echo "What's your password?"
+read -s pass
+# -s means silent, which means that it won't show the characters that we type in
+
+read -p "What's your favorite animal? " animal
+# We can also write everything on one line with a -p option, which writes out
+# a prompt before the input area.
+
+echo name: $name, pass: $pass, animal: $animal

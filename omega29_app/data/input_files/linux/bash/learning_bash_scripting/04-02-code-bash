@@ -1,0 +1,13 @@
+greeting="hello"
+
+echo $greeting, world \(planet\)!
+# with no quotes everything gets interpreted (so we have to escape special
+# characters we do not want to be interpreted)
+
+echo '$greeting, world (planet)!'
+# with single quotes we are dealing with a strong case - absolutely everything
+# is considered a string
+
+echo "$greeting, world (planet)!"
+# with double quotes we have a middle way - variables are interpreted, the
+# rest is considered a string

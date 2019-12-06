@@ -1,0 +1,3 @@
+Flags are specific options that you can use to pass information into
+a program, and they usually start with a dash. You can make use of these
+in your batch script by way of the getopts function.

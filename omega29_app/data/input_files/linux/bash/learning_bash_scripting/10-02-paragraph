@@ -1,0 +1,3 @@
+We can style text in Bash in two ways:
+  1. with ANSI escape codes
+  2. with a utility called tput

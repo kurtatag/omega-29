@@ -1,0 +1,7 @@
+cat <<- EOF
+	This is a
+	multiline
+	text string
+EOF
+# If we put a dash after <<, Bash will strip out the leading TABS (not spaces)
+# from the text that follows.

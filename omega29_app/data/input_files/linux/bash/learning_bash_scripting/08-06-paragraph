@@ -1,0 +1,7 @@
+There are also logic operators available in Bash:
+
+ Operator   Meaning
+ --------   -----------
+    &&      Logical AND
+    ||      Logical OR
+    !       Logical NOT

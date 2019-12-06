@@ -1,0 +1,11 @@
+# Bash support the following comparison operators for INTEGERS:
+
+a=2
+b=3
+
+[[ $a -lt $b ]]   #  <
+[[ $a -gt $b ]]   #  >
+[[ $a -le $b ]]   #  <=
+[[ $a -ge $b ]]   #  >=
+[[ $a -eq $b ]]   #  ==
+[[ $a -ne $b ]]   #  !=

@@ -1,0 +1,2 @@
+a="hello"
+echo ${#a}  # to find out how long a string is

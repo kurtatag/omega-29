@@ -1,0 +1,8 @@
+echo "Some text" > file.txt
+# to write text to a file
+
+echo "Some more text" >> file.txt
+# to add text to the end of a file
+
+> file.txt
+# to zero out a file

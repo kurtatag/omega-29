@@ -1,0 +1,17 @@
+echo $BASH_VERSION
+# returns the version of Bash
+
+echo $HOME
+# returns the home directory of the current user
+
+echo $PWD
+# returns the current directory
+
+echo $HOSTNAME
+# returns the hostname
+
+echo $SECONDS
+# If you type echo $SECONDS at the command line, you will see how long
+# the session has been open.
+# But if you use $SECONDS in a script, it'll start counting from when
+# the script started.

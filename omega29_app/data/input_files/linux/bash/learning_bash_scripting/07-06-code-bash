@@ -1,0 +1,3 @@
+# For arbitrary precision calculations we can use bc:
+
+echo 1/3 | bc -l

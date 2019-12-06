@@ -1,0 +1,27 @@
+a=()   # empty array
+
+b=("apple" "banana" "cherry")
+# an array of three elements
+
+echo ${b[2]}
+# to retrieve the third element of an array
+
+b[5]="kiwi"
+# to set array values by index number, you don't have to populate every element
+
+b+=("mango")
+# to append an element to an array
+# Make sure you put the value in parentheses. If you don't do that Bash will
+# append the value to the zeroth element in the array.
+
+echo ${b[@]}
+echo ${b[*]}
+# to echo out the whole array (@ represents the whole array)
+
+echo ${#b[@]}
+echo ${#b[*]}
+# to echo out the length of the array
+
+echo ${!b[*]}
+echo ${!b[@]}
+# to echo out the indexes of the array
