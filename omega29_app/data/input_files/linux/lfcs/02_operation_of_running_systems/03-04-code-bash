@@ -1,0 +1,2 @@
+grub-install /dev/sda
+# install a bootloader

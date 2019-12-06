@@ -1,0 +1,5 @@
+cat /etc/default/grub
+# a configuration file that controls many of the aspects of the bootloader
+
+sudo update-grub
+# we need to run this after any changes in /etc/default/grub

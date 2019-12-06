@@ -1,0 +1,3 @@
+When a Linux system is installed, typically the bootloader is installed
+during the process. If not, however, we can install a bootloader with
+the grub-install command, followed by a path to the target disk.

@@ -1,0 +1,2 @@
+cd /etc/grub.d
+# the configuration files that specify which options are available in GRUB

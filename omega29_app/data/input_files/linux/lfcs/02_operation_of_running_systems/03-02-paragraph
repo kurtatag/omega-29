@@ -1,1 +1,7 @@
-In progress
+Booting the System:
+  1. Firmware loads bootloader (from MBR or image)
+  2. Bootloader loads kernel and initial file system
+  3. Kernel mounts root file system
+  4. Kernel starts systemd (Process Control Daemon), which controls all other
+     processes on the system
+  5. System boots to selected target level
