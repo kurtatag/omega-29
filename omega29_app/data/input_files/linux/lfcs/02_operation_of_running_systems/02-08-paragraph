@@ -2,5 +2,5 @@ It is possible to change the default runlevel at boot time.
 While the system is booting hold down Shift to enter GRUB menu. Using
 arrow keys get to *Ubuntu (first having chosen kernel
 version). Then press 'e' to edit the commands before booting. Locate a line
-with linux<space>... command and at the very end of the command add
-<space><runlevel>.
+with linux&lt;space&gt;... command and at the very end of the command add
+&lt;space&gt;&lt;runlevel&gt;.
