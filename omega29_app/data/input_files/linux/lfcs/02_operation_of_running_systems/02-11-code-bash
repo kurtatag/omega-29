@@ -1,2 +1,2 @@
 man runlevel
-# to see the mapping between runlevels and systemd targets
+# to see the mapping between runlevels and systemd targets (on Ubuntu)
