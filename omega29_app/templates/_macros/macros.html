@@ -38,7 +38,7 @@
     <h5 id="{{ id }}" class="mb-4">{{ content }}</h5>
   {% elif type == 'code' %}
     <div class="card border-top-0 border-bottom-0 border-right-0 border-left-0 mb-4">
-      <button type="button" data-toggle="tooltip" data-placement="top" title="Copy to clipboard"
+      <button type="button" data-toggle="tooltip" data-placement="top"
         class="btn btn-outline-primary btn-sm border-0 btn-clipboard">Copy</button>
       <pre class="blue-left-border"><code class="line-numbers language-{{ lang }}">{{ content }}</code></pre>
     </div>
@@ -55,11 +55,11 @@
 {% macro render_toc_items(toc_items) -%}
   {% for link_h3 in toc_items %}
     <nav class="nav flex-column">
-      <a class="nav-link text-truncate" href="{{ link_h3.link_href }}">{{ link_h3.link_text }}</a>
+      <a class="nav-link" href="{{ link_h3.link_href }}"><i class="fas fa-circle"></i>{{ link_h3.link_text }}</a>
       {% if link_h3.children %}
         <nav class="nav flex-column">
           {% for link_h4 in link_h3.children %}
-            <a class="nav-link text-truncate ml-4" href="{{ link_h4.link_href }}">{{ link_h4.link_text }}</a>
+            <a class="nav-link ml-4" href="{{ link_h4.link_href }}"><i class="fas fa-circle"></i>{{ link_h4.link_text }}</a>
           {% endfor %}
         </nav>
       {% endif %}

@@ -3,7 +3,6 @@ $(document).ready(function () {
     scroll_to_top();
     add_anchors();
     copy_to_clipboard();
-    toc_tooltips();
     toc_height();
     search_focus();
 });
@@ -21,12 +20,9 @@ function scroll_to_top() {
 
 
 function add_anchors() {
-    anchors.options.visible = 'always';
-    anchors.options.icon = '§';
-
-    if ($( window ).width() > 600) {
-        anchors.options.placement = 'left';
-    }
+    // anchors.options.visible = 'always';
+    // anchors.options.icon = '§';
+    // anchors.options.placement = 'left';
 
     anchors.add();
 }
@@ -46,37 +42,12 @@ function copy_to_clipboard() {
 
 
     // tooltips
-    $('[data-toggle="tooltip"]').tooltip({trigger: 'hover'});
-
     $('.btn-clipboard').click(function () {
         $(this).attr('data-original-title', "Copied!").tooltip('show');
     });
 
     $('.btn-clipboard').mouseleave(function () {
-        $(this).attr('data-original-title', "Copy to clipboard").tooltip('hide');
-    });
-}
-
-
-function toc_tooltips() {
-    var elements = document.querySelectorAll('#toc a');
-    console.log(elements);
-    elements.forEach(function (el, index) {
-        $el = $(el);
-        if (el.clientWidth < el.scrollWidth && !$el.attr('title')) {
-            console.log(el);
-            $el.tooltip({
-                boundary: 'window',
-                title: $el.text(),
-                placement: "right",
-                trigger: 'hover',
-                delay: { "show": 500, "hide": 1 }
-            });
-        }
-    });
-
-    $('#toc a').click(function () {
-        $(this).tooltip('hide');
+        $(this).attr('data-original-title', "").tooltip('hide');
     });
 }
 
